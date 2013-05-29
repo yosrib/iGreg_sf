@@ -1,0 +1,78 @@
+Admin\AdminBundle\Entity\Admin:
+    type: entity
+    table: admin
+    fields:
+        idAdmin:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_admin
+            generator:
+                strategy: IDENTITY
+        emailAdmin:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: email_admin
+        passAdmin:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: pass_admin
+        actifAdmin:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: actif_admin
+        nomAdmin:
+            type: string
+            length: 255
+            fixed: false
+            nullable: true
+            column: nom_admin
+        prenomAdmin:
+            type: string
+            length: 255
+            fixed: false
+            nullable: true
+            column: prenom_admin
+        datenaissanceAdmin:
+            type: datetime
+            nullable: true
+            column: datenaissance_admin
+        telAdmin:
+            type: integer
+            unsigned: false
+            nullable: true
+            column: tel_admin
+    manyToMany:
+        idProjet:
+            targetEntity: Projet
+            cascade: {  }
+            mappedBy: null
+            inversedBy: idAdmin
+            joinTable:
+                name: adminprojet
+                joinColumns:
+                    -
+                        name: id_admin
+                        referencedColumnName: id_admin
+                inverseJoinColumns:
+                    -
+                        name: id_projet
+                        referencedColumnName: id_projet
+            orderBy: null
+    manyToOne:
+        idTypeadmin:
+            targetEntity: Typeadmin
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_typeadmin:
+                    referencedColumnName: id_typeadmin
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

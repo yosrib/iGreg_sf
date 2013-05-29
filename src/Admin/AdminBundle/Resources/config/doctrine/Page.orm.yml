@@ -1,0 +1,71 @@
+Admin\AdminBundle\Entity\Page:
+    type: entity
+    table: page
+    fields:
+        idPage:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_page
+            generator:
+                strategy: IDENTITY
+        menuPage:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: menu_page
+        parentPage:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: parent_page
+        orderPage:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: order_page
+    manyToMany:
+        idGallerie:
+            targetEntity: Gallerie
+            cascade: {  }
+            mappedBy: idPage
+            inversedBy: null
+            joinTable: null
+            orderBy: null
+        isoLangue:
+            targetEntity: Langue
+            cascade: {  }
+            mappedBy: null
+            inversedBy: idPage
+            joinTable:
+                name: pagelangue
+                joinColumns:
+                    -
+                        name: id_page
+                        referencedColumnName: id_page
+                inverseJoinColumns:
+                    -
+                        name: iso_langue
+                        referencedColumnName: iso_langue
+            orderBy: null
+    manyToOne:
+        idTypepage:
+            targetEntity: Typepage
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_typepage:
+                    referencedColumnName: id_typepage
+            orphanRemoval: false
+        idProjet:
+            targetEntity: Projet
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_projet:
+                    referencedColumnName: id_projet
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

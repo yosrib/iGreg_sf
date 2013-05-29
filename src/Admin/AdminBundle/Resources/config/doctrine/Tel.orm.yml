@@ -1,0 +1,39 @@
+Admin\AdminBundle\Entity\Tel:
+    type: entity
+    table: tel
+    fields:
+        idTel:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_tel
+            generator:
+                strategy: IDENTITY
+        numTel:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: num_tel
+        typeTel:
+            type: string
+            length: 255
+            fixed: false
+            nullable: true
+            column: type_tel
+        principaleTel:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: principale_tel
+    manyToOne:
+        idClient:
+            targetEntity: Client
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_client:
+                    referencedColumnName: id_client
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

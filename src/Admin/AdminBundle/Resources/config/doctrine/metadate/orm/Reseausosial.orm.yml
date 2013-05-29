@@ -1,0 +1,35 @@
+Reseausosial:
+    type: entity
+    table: reseausosial
+    fields:
+        idResocial:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_resocial
+            generator:
+                strategy: IDENTITY
+        nomResocial:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: nom_resocial
+        urlResocial:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: url_resocial
+    manyToOne:
+        idProjet:
+            targetEntity: Projet
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_projet:
+                    referencedColumnName: id_projet
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

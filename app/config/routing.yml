@@ -1,0 +1,10 @@
+admin_admin:
+    resource: "@AdminAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin/
+
+
+
+front_front:
+    resource: "@FrontFrontBundle/Resources/config/routing.php"
+    prefix:   /
+

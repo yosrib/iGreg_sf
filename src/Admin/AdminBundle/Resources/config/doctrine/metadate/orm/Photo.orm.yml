@@ -1,0 +1,36 @@
+Photo:
+    type: entity
+    table: photo
+    fields:
+        idPhoto:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_photo
+            generator:
+                strategy: IDENTITY
+        orderPhoto:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: order_photo
+    manyToMany:
+        isoLangue:
+            targetEntity: Langue
+            cascade: {  }
+            mappedBy: idPhoto
+            inversedBy: null
+            joinTable: null
+            orderBy: null
+    manyToOne:
+        idGallerie:
+            targetEntity: Gallerie
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_gallerie:
+                    referencedColumnName: id_gallerie
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

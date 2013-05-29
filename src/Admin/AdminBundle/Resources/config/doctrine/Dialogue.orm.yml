@@ -1,0 +1,60 @@
+Admin\AdminBundle\Entity\Dialogue:
+    type: entity
+    table: dialogue
+    fields:
+        idDialogue:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_dialogue
+            generator:
+                strategy: IDENTITY
+        auteurDialogue:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: auteur_dialogue
+        descriptionDialogue:
+            type: text
+            nullable: false
+            column: description_dialogue
+        dateDialogue:
+            type: datetime
+            nullable: false
+            column: date_dialogue
+        actifDialogue:
+            type: integer
+            unsigned: false
+            nullable: true
+            column: actif_dialogue
+    manyToOne:
+        idSujet:
+            targetEntity: Sujet
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_sujet:
+                    referencedColumnName: id_sujet
+            orphanRemoval: false
+        idAdmin:
+            targetEntity: Admin
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_admin:
+                    referencedColumnName: id_admin
+            orphanRemoval: false
+        idClient:
+            targetEntity: Client
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_client:
+                    referencedColumnName: id_client
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

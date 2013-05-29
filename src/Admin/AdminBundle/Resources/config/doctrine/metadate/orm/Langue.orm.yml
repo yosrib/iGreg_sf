@@ -1,0 +1,59 @@
+Langue:
+    type: entity
+    table: langue
+    fields:
+        isoLangue:
+            id: true
+            type: string
+            length: 5
+            fixed: false
+            nullable: false
+            column: iso_langue
+            generator:
+                strategy: IDENTITY
+    manyToMany:
+        idActualite:
+            targetEntity: Actualite
+            cascade: {  }
+            mappedBy: isoLangue
+            inversedBy: null
+            joinTable: null
+            orderBy: null
+        idGallerie:
+            targetEntity: Gallerie
+            cascade: {  }
+            mappedBy: isoLangue
+            inversedBy: null
+            joinTable: null
+            orderBy: null
+        idProjet:
+            targetEntity: Projet
+            cascade: {  }
+            mappedBy: isoLangue
+            inversedBy: null
+            joinTable: null
+            orderBy: null
+        idPage:
+            targetEntity: Page
+            cascade: {  }
+            mappedBy: isoLangue
+            inversedBy: null
+            joinTable: null
+            orderBy: null
+        idPhoto:
+            targetEntity: Photo
+            cascade: {  }
+            mappedBy: null
+            inversedBy: isoLangue
+            joinTable:
+                name: photolangue
+                joinColumns:
+                    -
+                        name: iso_langue
+                        referencedColumnName: iso_langue
+                inverseJoinColumns:
+                    -
+                        name: id_photo
+                        referencedColumnName: id_photo
+            orderBy: null
+    lifecycleCallbacks: {  }

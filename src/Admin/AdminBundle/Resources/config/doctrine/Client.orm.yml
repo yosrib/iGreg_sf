@@ -1,0 +1,63 @@
+Admin\AdminBundle\Entity\Client:
+    type: entity
+    table: client
+    fields:
+        idClient:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_client
+            generator:
+                strategy: IDENTITY
+        nomClient:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: nom_client
+        prenomClient:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: prenom_client
+        emailClient:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: email_client
+        adresseClient:
+            type: text
+            nullable: true
+            column: adresse_client
+        paysClient:
+            type: string
+            length: 255
+            fixed: false
+            nullable: true
+            column: pays_client
+        codepostalClient:
+            type: string
+            length: 255
+            fixed: false
+            nullable: true
+            column: codepostal_client
+        logitudeClient:
+            type: integer
+            unsigned: false
+            nullable: true
+            column: logitude_client
+        lattidudeClient:
+            type: integer
+            unsigned: false
+            nullable: true
+            column: lattidude_client
+        villeClient:
+            type: string
+            length: 255
+            fixed: false
+            nullable: true
+            column: ville_client
+    lifecycleCallbacks: {  }

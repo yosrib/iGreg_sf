@@ -1,0 +1,19 @@
+Etatprojet:
+    type: entity
+    table: etatprojet
+    fields:
+        idEtatprojet:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_etatprojet
+            generator:
+                strategy: IDENTITY
+        libelleEtatprojet:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: libelle_etatprojet
+    lifecycleCallbacks: {  }

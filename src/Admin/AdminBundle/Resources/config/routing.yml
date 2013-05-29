@@ -1,0 +1,7 @@
+admin_admin_index:
+    pattern:  /
+    defaults: { _controller: AdminAdminBundle:Index:index }
+
+admin_admin_projet:
+    pattern:  /projet
+    defaults: { _controller: AdminAdminBundle:Projet:index }
