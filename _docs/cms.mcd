@@ -1,0 +1,5475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{7B1378CF-A5C7-4DD9-8176-377CACA67C63}" Label="" LastModificationDate="1369817846" Name="cms" Objects="267" Symbols="59" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>7B1378CF-A5C7-4DD9-8176-377CACA67C63</a:ObjectID>
+<a:Name>cms</a:Name>
+<a:Code>CMS</a:Code>
+<a:CreationDate>1367222141</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369817570</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Conceptual Data Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=
+
+[FolderOptions\CheckModel]
+
+[FolderOptions\CheckModel\Package]
+
+[FolderOptions\CheckModel\Package\GenrCircularityYes]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\GenrCircularityNo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\ShortcutUniqCode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Package\ChildShortcut]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine]
+
+[FolderOptions\CheckModel\Domaine\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckPrecSupLng]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckOtherDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information]
+
+[FolderOptions\CheckModel\Information\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\InfoNotUsed]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\InfoUsedSevTime]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\InfoDiffDomn]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckPrecSupLng]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckOtherDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité]
+
+[FolderOptions\CheckModel\Entité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\MaxLen - NAME]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttNoAttrNo]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttNbSerials]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttNoAttrYes]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EmptyCollYesYes]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttSamePrnt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttMultInhr]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttSevInhr]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\PidtfInhrAtt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité]
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant]
+
+[FolderOptions\CheckModel\Entité.Identifiant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\EmptyColl - PENTCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\CheckIncludeColl - Entt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\IdtfChildPIdtf]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation]
+
+[FolderOptions\CheckModel\Relation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshReflexiveDeptYes]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshReflexiveDeptNo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshBject]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshMnyMny]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshDepdChild]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association]
+
+[FolderOptions\CheckModel\Association\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscNbLink]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscNbIdLink1]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscNbIdLink2]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscIdPass]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscBject]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscMaxCard]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscReflex]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscMnyMny]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage]
+
+[FolderOptions\CheckModel\Héritage\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\EmptyColl - CHILDCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réplication]
+
+[FolderOptions\CheckModel\Réplication\PartialReplication]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion]
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\EmptyColl - OBJCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu]
+
+[FolderOptions\CheckModel\Objet étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu]
+
+[FolderOptions\CheckModel\Lien étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier]
+
+[FolderOptions\CheckModel\Fichier\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\CheckPathExists]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Conceptual options]
+CaseSensitive=No
+DisplayName=Yes
+EnableTrans=No
+EnableRequirements=No
+InfoUnique=Yes
+AllowReuse=Yes
+InfoAllowReuse=Yes
+Notation=2
+RlshUnique=Yes
+DefaultDttp=
+DomnCopyDttp=Yes
+DomnCopyChck=No
+DomnCopyRule=No
+DomnCopyExat=No
+DomnCopyMand=No
+DttpFullName=Yes
+
+[ModelOptions\Conceptual options\NamingOptionsTemplates]
+
+[ModelOptions\Conceptual options\ClssNamingOptions]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+RefrUpdRule=RESTRICT
+RefrDelRule=RESTRICT
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ClassPrefix=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No
+PreserveMode=Yes
+
+[ModelOptions\Generate\Oom]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=Yes
+
+[ModelOptions\Generate\Ldm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No</a:ModelOptionsText>
+<c:GeneratedModels>
+<o:Shortcut Id="o3">
+<a:ObjectID>75508F03-C0E6-4155-94D5-4B62836C4A45</a:ObjectID>
+<a:Name>cms</a:Name>
+<a:Code>CMS</a:Code>
+<a:CreationDate>1369817846</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369817846</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>2A8C626B-1615-4D9E-B9D4-05A3228F770A</a:TargetID>
+<a:TargetClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetClassID>
+</o:Shortcut>
+</c:GeneratedModels>
+<c:ConceptualDiagrams>
+<o:ConceptualDiagram Id="o4">
+<a:ObjectID>EA109D39-9116-4718-B0D3-46417BC50A3D</a:ObjectID>
+<a:Name>Diagramme_1</a:Name>
+<a:Code>DIAGRAMME_1</a:Code>
+<a:CreationDate>1367222141</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369817570</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\CDM]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Mode=2
+Trunc Length=40
+Word Length=40
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de l&amp;#39;objet&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Emplacement&quot; Attribute=&quot;LocationOrName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+PckgStrn=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package_SymbolLayout=
+Display Model Version=Yes
+EnttAttr=Yes
+PentMode=0
+PentNb=5
+EnttDttp=Yes
+EnttDomn=Yes
+EnttShowDomn=No
+EnttMand=Yes
+EnttCIdf=Yes
+EnttKeyI=Yes
+PentStrn=Yes
+IdtfStrn=Yes
+RlshName=Yes
+RlshRole=Yes
+RlshCard=No
+RlshDmnt=Yes
+RlshStrn=Yes
+InhrName=Yes
+InhrStrn=Yes
+Entity.IconPicture=No
+Entity_SymbolLayout=
+Association.IconPicture=No
+Association_SymbolLayout=
+Inheritance.IconPicture=No
+Inheritance_SymbolLayout=
+EnttStrn=Yes
+EnttCmmt=No
+AsscStrn=Yes
+AsscCmmt=No
+AsscAttr=Yes
+AsscDttp=Yes
+AsscDomn=Yes
+AsscShowDomn=No
+AsscMand=Yes
+AsscDLim=Yes
+AsscNb=5
+PassStrn=1
+LinkRole=Yes
+LinkCard=Yes
+LinkStrn=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ENTT]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+EntityPrimaryAttributeFont=Arial,8,U
+EntityPrimaryAttributeFont color=0, 0, 0
+IdentifiersFont=Arial,8,N
+IdentifiersFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=176 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 170 170
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\RLSH]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+NAMAFont=Arial,8,N
+NAMAFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 170 170
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ASSC]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3000
+Brush color=208 208 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINK]
+ROLEFont=Arial,8,N
+ROLEFont color=0, 0, 0
+CARDFont=Arial,8,N
+CARDFont color=0, 0, 0
+Line style=1
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMINHR]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=Yes
+Width=1600
+Height=1000
+Brush color=176 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINH]
+Line style=1
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+OBJXSTRFont=Arial,8,N
+OBJXSTRFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:AssociationLinkSymbol Id="o5">
+<a:CreationDate>1367223494</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-6527,19232), (12428,20841))</a:Rect>
+<a:ListOfPoints>((-6527,19232),(-3444,19232),(-3444,20841),(12428,20841))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o7"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o8"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o9">
+<a:CreationDate>1367223494</a:CreationDate>
+<a:ModificationDate>1367494008</a:ModificationDate>
+<a:Rect>((12428,9362), (17138,20841))</a:Rect>
+<a:ListOfPoints>((17100,9362),(17100,15136),(12428,15136),(12428,20841))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o10"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o7"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o11"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o12">
+<a:CreationDate>1367228717</a:CreationDate>
+<a:ModificationDate>1369815456</a:ModificationDate>
+<a:Rect>((-23527,-23396), (5807,-22221))</a:Rect>
+<a:ListOfPoints>((-23527,-23396),(-9056,-23396),(-9056,-22845),(5807,-22845))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o13"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o14"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o15"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o16">
+<a:CreationDate>1367228717</a:CreationDate>
+<a:ModificationDate>1367494008</a:ModificationDate>
+<a:Rect>((5807,-22845), (24657,8187))</a:Rect>
+<a:ListOfPoints>((22895,8187),(22895,-22845),(5807,-22845))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o10"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o14"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o17"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o18">
+<a:CreationDate>1367229412</a:CreationDate>
+<a:ModificationDate>1367494008</a:ModificationDate>
+<a:Rect>((14145,-7772), (15945,8277))</a:Rect>
+<a:ListOfPoints>((14183,8277),(14183,-808),(14456,-808),(14456,-7772))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o10"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o19"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o20"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o21">
+<a:CreationDate>1367229412</a:CreationDate>
+<a:ModificationDate>1367231910</a:ModificationDate>
+<a:Rect>((7465,-14337), (9767,-7844))</a:Rect>
+<a:ListOfPoints>((9227,-14337),(9227,-11475),(9767,-11475),(9767,-7844))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o22"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o19"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o23"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:RelationshipSymbol Id="o24">
+<a:CreationDate>1367229510</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-19646,-4712), (-14144,10178))</a:Rect>
+<a:ListOfPoints>((-14144,10178),(-14144,2396),(-19646,2396),(-19646,-4712))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4627</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o25"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o26"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:AssociationLinkSymbol Id="o27">
+<a:CreationDate>1367229595</a:CreationDate>
+<a:ModificationDate>1367231925</a:ModificationDate>
+<a:Rect>((-13638,-3012), (-828,1381))</a:Rect>
+<a:ListOfPoints>((-13638,-3012),(-828,-3012),(-828,1381))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o25"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o28"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o29"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o30">
+<a:CreationDate>1367229595</a:CreationDate>
+<a:ModificationDate>1367494008</a:ModificationDate>
+<a:Rect>((-828,1381), (11725,10013))</a:Rect>
+<a:ListOfPoints>((11725,10013),(-828,10013),(-828,1381))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o10"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o28"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o31"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:RelationshipSymbol Id="o32">
+<a:CreationDate>1367229693</a:CreationDate>
+<a:ModificationDate>1367231925</a:ModificationDate>
+<a:Rect>((-14183,-15499), (6758,-5837))</a:Rect>
+<a:ListOfPoints>((-11896,-5837),(-11896,-14912),(6758,-14912))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4627</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o25"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o22"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o33"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:AssociationLinkSymbol Id="o34">
+<a:CreationDate>1367230361</a:CreationDate>
+<a:ModificationDate>1367231925</a:ModificationDate>
+<a:Rect>((-22564,-12789), (-16669,-3604))</a:Rect>
+<a:ListOfPoints>((-18431,-3604),(-18431,-8625),(-22564,-8625),(-22564,-12789))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o25"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o35"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o36"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o37">
+<a:CreationDate>1367230361</a:CreationDate>
+<a:ModificationDate>1369815456</a:ModificationDate>
+<a:Rect>((-25467,-21629), (-22505,-12789))</a:Rect>
+<a:ListOfPoints>((-23667,-21629),(-23667,-17096),(-22505,-17096),(-22505,-12789))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o13"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o35"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o38"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:RelationshipSymbol Id="o39">
+<a:CreationDate>1367231185</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-40959,18987), (-22710,21079))</a:Rect>
+<a:ListOfPoints>((-40959,20680),(-33170,20680),(-33170,18987),(-22710,18987))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4627</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o40"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o41"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o42">
+<a:CreationDate>1367231810</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-34865,-21468), (-25361,12091))</a:Rect>
+<a:ListOfPoints>((-25361,10845),(-32578,10845),(-32578,-21468))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4627</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o13"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o43"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o44">
+<a:CreationDate>1367233010</a:CreationDate>
+<a:ModificationDate>1369817541</a:ModificationDate>
+<a:Rect>((-63201,34337), (-52770,36383))</a:Rect>
+<a:ListOfPoints>((-52770,35287),(-57641,35287),(-57641,34987),(-63201,34987))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4627</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o45"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o46"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o47"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o48">
+<a:CreationDate>1367233074</a:CreationDate>
+<a:ModificationDate>1369817540</a:ModificationDate>
+<a:Rect>((-36412,21172), (-22879,35241))</a:Rect>
+<a:ListOfPoints>((-36412,33995),(-25166,33995),(-25166,21172))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4882</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o45"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o49"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o50">
+<a:CreationDate>1367234529</a:CreationDate>
+<a:ModificationDate>1369815456</a:ModificationDate>
+<a:Rect>((-41612,-23274), (-32478,-21227))</a:Rect>
+<a:ListOfPoints>((-32478,-22474),(-41612,-22474))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4882</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o13"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o51"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o52"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o53">
+<a:CreationDate>1367327422</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-48170,4098), (-24823,14821))</a:Rect>
+<a:ListOfPoints>((-24823,13575),(-45658,13575),(-45658,4098))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4627</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o54"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o55"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o56">
+<a:CreationDate>1367331507</a:CreationDate>
+<a:ModificationDate>1367331507</a:ModificationDate>
+<a:Rect>((-68872,10916), (-58372,20452))</a:Rect>
+<a:ListOfPoints>((-58372,19206),(-66397,19206),(-66397,10916))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4627</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o40"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o57"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o58"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:AssociationLinkSymbol Id="o59">
+<a:CreationDate>1367331871</a:CreationDate>
+<a:ModificationDate>1367331921</a:ModificationDate>
+<a:Rect>((24349,20399), (36947,37455))</a:Rect>
+<a:ListOfPoints>((24349,36281),(36947,36281),(36947,20399))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o60"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o61"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o62"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o63">
+<a:CreationDate>1367331871</a:CreationDate>
+<a:ModificationDate>1367494008</a:ModificationDate>
+<a:Rect>((21049,9156), (36947,20399))</a:Rect>
+<a:ListOfPoints>((21049,9156),(36947,9156),(36947,20399))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o10"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o61"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o64"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:RelationshipSymbol Id="o65">
+<a:CreationDate>1367331927</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-11098,23263), (12349,37302))</a:Rect>
+<a:ListOfPoints>((12349,36056),(-8586,36056),(-8586,23263))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4371</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o60"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o66"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o67">
+<a:CreationDate>1367332084</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-14244,23167), (-9220,38842))</a:Rect>
+<a:ListOfPoints>((-11732,38842),(-11732,23167))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4882</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o68"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o69"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o70">
+<a:CreationDate>1367332116</a:CreationDate>
+<a:ModificationDate>1367494008</a:ModificationDate>
+<a:Rect>((3574,7967), (46136,41992))</a:Rect>
+<a:ListOfPoints>((3574,41992),(43624,41992),(43624,7967),(23974,7967))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4882</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o68"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o10"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o71"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o72">
+<a:CreationDate>1367332277</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-19598,22079), (-14574,46379))</a:Rect>
+<a:ListOfPoints>((-17086,46379),(-17086,22079))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4882</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o73"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o74"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o75">
+<a:CreationDate>1367481929</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-8611,22191), (3698,30367))</a:Rect>
+<a:ListOfPoints>((3698,29121),(-6099,29121),(-6099,22191))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4882</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o76"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o77"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:AssociationLinkSymbol Id="o78">
+<a:CreationDate>1367597972</a:CreationDate>
+<a:ModificationDate>1367597980</a:ModificationDate>
+<a:Rect>((-28987,40007), (-27187,48287))</a:Rect>
+<a:ListOfPoints>((-28987,48287),(-28987,43699),(-27336,43699),(-27336,40007))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o79"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o80"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o81"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o82">
+<a:CreationDate>1367597972</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-27336,21992), (-21266,39638))</a:Rect>
+<a:ListOfPoints>((-21266,21992),(-21266,31494),(-27336,31494),(-27336,39638))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o80"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o83"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:RelationshipSymbol Id="o84">
+<a:CreationDate>1369815119</a:CreationDate>
+<a:ModificationDate>1369815126</a:ModificationDate>
+<a:Rect>((-59856,49962), (-45224,52008))</a:Rect>
+<a:ListOfPoints>((-59856,50762),(-45224,50762))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4627</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o85"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o79"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o86"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o87">
+<a:CreationDate>1369815525</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:Rect>((-39976,-8485), (-22208,10553))</a:Rect>
+<a:ListOfPoints>((-24720,10553),(-24720,-7898),(-39976,-7898))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4882</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o88"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o89"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o90">
+<a:CreationDate>1369817563</a:CreationDate>
+<a:ModificationDate>1369817563</a:ModificationDate>
+<a:Rect>((-44751,37537), (-39727,48712))</a:Rect>
+<a:ListOfPoints>((-42239,48712),(-42239,37537))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4371</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o79"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o45"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o91"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o92">
+<a:CreationDate>1369817564</a:CreationDate>
+<a:ModificationDate>1369817564</a:ModificationDate>
+<a:Rect>((-46964,25537), (-41940,34162))</a:Rect>
+<a:ListOfPoints>((-44452,25537),(-44452,34162))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4371</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o40"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o45"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o93"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o94">
+<a:CreationDate>1369817568</a:CreationDate>
+<a:ModificationDate>1369817568</a:ModificationDate>
+<a:Rect>((-70739,37087), (-45052,48608))</a:Rect>
+<a:ListOfPoints>((-45052,47362),(-68227,47362),(-68227,37087))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4371</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o79"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o46"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o95"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o96">
+<a:CreationDate>1369817570</a:CreationDate>
+<a:ModificationDate>1369817570</a:ModificationDate>
+<a:Rect>((-73889,23991), (-58327,33187))</a:Rect>
+<a:ListOfPoints>((-58327,25237),(-71377,25237),(-71377,33187))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4371</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o40"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o46"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o97"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:EntitySymbol Id="o6">
+<a:CreationDate>1367222144</a:CreationDate>
+<a:ModificationDate>1369815842</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-26372,10082), (-4178,23640))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o98"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o10">
+<a:CreationDate>1367222282</a:CreationDate>
+<a:ModificationDate>1367494008</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((7799,6912), (25049,10911))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o99"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o13">
+<a:CreationDate>1367222283</a:CreationDate>
+<a:ModificationDate>1369815456</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-33965,-26384), (-21735,-19643))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o100"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o25">
+<a:CreationDate>1367222326</a:CreationDate>
+<a:ModificationDate>1367482094</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-22117,-6263), (-10583,-2264))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o101"/>
+</c:Object>
+</o:EntitySymbol>
+<o:AssociationSymbol Id="o7">
+<a:CreationDate>1367223494</a:CreationDate>
+<a:ModificationDate>1367242233</a:ModificationDate>
+<a:Rect>((-193,17061), (25061,24621))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Association Ref="o102"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:EntitySymbol Id="o79">
+<a:CreationDate>1367223765</a:CreationDate>
+<a:ModificationDate>1367597979</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-48483,46399), (-26367,57037))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o103"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o40">
+<a:CreationDate>1367224639</a:CreationDate>
+<a:ModificationDate>1367482094</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-60386,14333), (-39814,26917))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o104"/>
+</c:Object>
+</o:EntitySymbol>
+<o:AssociationSymbol Id="o14">
+<a:CreationDate>1367228717</a:CreationDate>
+<a:ModificationDate>1367234947</a:ModificationDate>
+<a:Rect>((-6279,-26073), (17887,-19619))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Association Ref="o105"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:EntitySymbol Id="o22">
+<a:CreationDate>1367229385</a:CreationDate>
+<a:ModificationDate>1367482094</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((5875,-17786), (17873,-12992))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o106"/>
+</c:Object>
+</o:EntitySymbol>
+<o:AssociationSymbol Id="o19">
+<a:CreationDate>1367229412</a:CreationDate>
+<a:ModificationDate>1367229585</a:ModificationDate>
+<a:Rect>((-2505,-9961), (21981,-5729))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Association Ref="o107"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o28">
+<a:CreationDate>1367229595</a:CreationDate>
+<a:ModificationDate>1367229660</a:ModificationDate>
+<a:Rect>((-13415,-737), (11767,3499))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Association Ref="o108"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:EntitySymbol Id="o46">
+<a:CreationDate>1367229897</a:CreationDate>
+<a:ModificationDate>1369817541</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-83706,31313), (-61898,39027))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o109"/>
+</c:Object>
+</o:EntitySymbol>
+<o:AssociationSymbol Id="o35">
+<a:CreationDate>1367230361</a:CreationDate>
+<a:ModificationDate>1367230430</a:ModificationDate>
+<a:Rect>((-31270,-14289), (-13806,-11290))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Association Ref="o110"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:EntitySymbol Id="o45">
+<a:CreationDate>1367232454</a:CreationDate>
+<a:ModificationDate>1369817540</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-53385,32406), (-35439,39146))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o111"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o51">
+<a:CreationDate>1367234390</a:CreationDate>
+<a:ModificationDate>1367482094</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-59434,-24723), (-39790,-19929))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o112"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o54">
+<a:CreationDate>1367327356</a:CreationDate>
+<a:ModificationDate>1369815304</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-57488,-323), (-38076,5445))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o113"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o57">
+<a:CreationDate>1367331403</a:CreationDate>
+<a:ModificationDate>1367482094</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-75963,6419), (-56783,13161))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o114"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o60">
+<a:CreationDate>1367331731</a:CreationDate>
+<a:ModificationDate>1367482094</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((11262,35008), (26814,39802))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o115"/>
+</c:Object>
+</o:EntitySymbol>
+<o:AssociationSymbol Id="o61">
+<a:CreationDate>1367331871</a:CreationDate>
+<a:ModificationDate>1367331921</a:ModificationDate>
+<a:Rect>((26252,18431), (47648,22367))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Association Ref="o116"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:EntitySymbol Id="o68">
+<a:CreationDate>1367332013</a:CreationDate>
+<a:ModificationDate>1367482094</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-15625,38207), (6723,43975))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o117"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o73">
+<a:CreationDate>1367332157</a:CreationDate>
+<a:ModificationDate>1367482094</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-21741,45670), (-1711,52412))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o118"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o76">
+<a:CreationDate>1367481783</a:CreationDate>
+<a:ModificationDate>1367482094</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((2516,27391), (21542,33159))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o119"/>
+</c:Object>
+</o:EntitySymbol>
+<o:AssociationSymbol Id="o80">
+<a:CreationDate>1367597972</a:CreationDate>
+<a:ModificationDate>1367598018</a:ModificationDate>
+<a:Rect>((-34174,37529), (-20502,41747))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Association Ref="o120"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:EntitySymbol Id="o85">
+<a:CreationDate>1369815059</a:CreationDate>
+<a:ModificationDate>1369815126</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-76476,48213), (-55672,53007))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o121"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o88">
+<a:CreationDate>1369815521</a:CreationDate>
+<a:ModificationDate>1369815592</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-55291,-11644), (-34875,-6850))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o122"/>
+</c:Object>
+</o:EntitySymbol>
+</c:Symbols>
+</o:ConceptualDiagram>
+</c:ConceptualDiagrams>
+<c:DefaultDiagram>
+<o:ConceptualDiagram Ref="o4"/>
+</c:DefaultDiagram>
+<c:Entities>
+<o:Entity Id="o98">
+<a:ObjectID>C435CB26-4C91-4F0A-9605-F22B8D8BAAB8</a:ObjectID>
+<a:Name>Projet</a:Name>
+<a:Code>PROJET</a:Code>
+<a:CreationDate>1367222144</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815803</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o123">
+<a:ObjectID>1AF02A2F-98DF-4709-AE46-29C67F201E98</a:ObjectID>
+<a:Name>id_projet</a:Name>
+<a:Code>ID_PROJET</a:Code>
+<a:CreationDate>1367223219</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815912</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o124"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o123"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o124">
+<a:ObjectID>25C86139-0CF1-433E-B723-DD9282123F52</a:ObjectID>
+<a:CreationDate>1367222147</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223300</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o125"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o126">
+<a:ObjectID>8054426D-CAFD-4031-9091-3E9FE73958D2</a:ObjectID>
+<a:CreationDate>1367222147</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223300</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o127"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o128">
+<a:ObjectID>9FEBD927-0B34-40D3-B559-CC5E82273FC4</a:ObjectID>
+<a:CreationDate>1367222147</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223300</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o129"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o130">
+<a:ObjectID>33F8166E-F165-47AE-BE32-C50EE25A3351</a:ObjectID>
+<a:CreationDate>1367222147</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223300</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o131"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o132">
+<a:ObjectID>679F89D0-CB97-4521-986D-C63D6AF28FDD</a:ObjectID>
+<a:CreationDate>1367223159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223192</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o133"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o134">
+<a:ObjectID>6A7F8C51-4BD9-43D3-9F9D-D63AC6A4CE17</a:ObjectID>
+<a:CreationDate>1367224318</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367224332</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o135"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o136">
+<a:ObjectID>2CBE03E0-EE23-4BA0-B32B-5EF4BD6C5A5D</a:ObjectID>
+<a:CreationDate>1367225046</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367234909</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o137"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o138">
+<a:ObjectID>B274B797-F786-4A67-BE68-AB5B82A9D73E</a:ObjectID>
+<a:CreationDate>1367225100</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367225122</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o139"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o140">
+<a:ObjectID>273C0B20-9BF7-4938-BD9D-8DF37A8790E1</a:ObjectID>
+<a:CreationDate>1367330476</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367330500</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o141"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o142">
+<a:ObjectID>8137770D-1192-461B-8A26-ADFE75DF6FE5</a:ObjectID>
+<a:CreationDate>1367330476</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367330500</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o143"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o144">
+<a:ObjectID>125EA6D6-17F9-4CE6-B9ED-90471F8A47F0</a:ObjectID>
+<a:CreationDate>1369815733</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815803</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o145"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o99">
+<a:ObjectID>84E02148-3588-4A28-952F-226A8E242ACA</a:ObjectID>
+<a:Name>Langue</a:Name>
+<a:Code>LANGUE</a:Code>
+<a:CreationDate>1367222282</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332143</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o146">
+<a:ObjectID>C39B3F45-5706-4DF5-AE5C-1C4C34052C28</a:ObjectID>
+<a:Name>iso_langue</a:Name>
+<a:Code>ISO_LANGUE</a:Code>
+<a:CreationDate>1367223346</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223370</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o147"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o146"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o147">
+<a:ObjectID>5A65152A-2FD7-43DB-86F2-302F2A5F36F2</a:ObjectID>
+<a:CreationDate>1367223346</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223370</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o148"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o100">
+<a:ObjectID>1CE72964-4E98-4E9D-B0D7-7902218B53B5</a:ObjectID>
+<a:Name>Page</a:Name>
+<a:Code>PAGE</a:Code>
+<a:CreationDate>1367222283</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332332</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o149">
+<a:ObjectID>ADAC5A1E-33FC-43B6-AE07-DD401F0CC42B</a:ObjectID>
+<a:Name>id_page</a:Name>
+<a:Code>ID_PAGE</a:Code>
+<a:CreationDate>1367228590</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367228677</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o150"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o149"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o150">
+<a:ObjectID>77EABA03-DB55-4FF2-AE98-3739FC9B9212</a:ObjectID>
+<a:CreationDate>1367228590</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367228617</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o151"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o152">
+<a:ObjectID>1E0EEA46-44A6-45F2-9390-5DDBA247CAB1</a:ObjectID>
+<a:CreationDate>1367229041</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231857</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o153"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o154">
+<a:ObjectID>18B9A5A8-66D2-4069-B8E0-1EDA8A20A377</a:ObjectID>
+<a:CreationDate>1367229041</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231857</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o155"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o156">
+<a:ObjectID>B5CAE358-FA0F-48BB-9674-B219A330974E</a:ObjectID>
+<a:CreationDate>1367231819</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231857</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o157"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o101">
+<a:ObjectID>3C333320-07ED-4E52-A7E8-F1C228654428</a:ObjectID>
+<a:Name>Gallerie</a:Name>
+<a:Code>GALLERIE</a:Code>
+<a:CreationDate>1367222326</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229702</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o158">
+<a:ObjectID>FCFD32EC-8D57-49DB-9C19-DC9234FD3BE3</a:ObjectID>
+<a:Name>id_gallerie</a:Name>
+<a:Code>ID_GALLERIE</a:Code>
+<a:CreationDate>1367229010</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229032</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o159"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o158"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o159">
+<a:ObjectID>D92C777C-BED7-411F-A072-F74AAB323FB0</a:ObjectID>
+<a:CreationDate>1367229010</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229032</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o160"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o103">
+<a:ObjectID>B2333005-52B2-46FB-8AA4-4F8BF8531585</a:ObjectID>
+<a:Name>Admin</a:Name>
+<a:Code>ADMIN</a:Code>
+<a:CreationDate>1367223765</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816729</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o161">
+<a:ObjectID>B297820D-9F5F-41C5-A813-24BC093C1925</a:ObjectID>
+<a:Name>id_admin</a:Name>
+<a:Code>ID_ADMIN</a:Code>
+<a:CreationDate>1367223803</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223879</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o162"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o161"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o162">
+<a:ObjectID>F8C6AD95-4FBE-4374-B5AF-4B89265F6D4D</a:ObjectID>
+<a:CreationDate>1367223803</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223872</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o163"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o164">
+<a:ObjectID>896F240A-8E5E-4B9F-B835-AEF17AECBE0B</a:ObjectID>
+<a:CreationDate>1367223803</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223872</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o165"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o166">
+<a:ObjectID>BAC1802E-114A-48AE-AEBC-E8D93A9B0E72</a:ObjectID>
+<a:CreationDate>1367223803</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223872</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o167"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o168">
+<a:ObjectID>4C55FEA0-9250-4316-9472-8F6FE63B9C10</a:ObjectID>
+<a:CreationDate>1367223803</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223872</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o169"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o170">
+<a:ObjectID>312BA3C8-8F14-4E1B-B8C2-8F33E7D3139C</a:ObjectID>
+<a:CreationDate>1367596822</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367597783</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o171"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o172">
+<a:ObjectID>7368C26E-A09A-4D00-B17C-D60CB287D2CB</a:ObjectID>
+<a:CreationDate>1367596822</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367597783</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o173"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o174">
+<a:ObjectID>90AB4F20-CFB0-48BA-80EB-16E343718784</a:ObjectID>
+<a:CreationDate>1367596822</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367597783</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o175"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o176">
+<a:ObjectID>D334BB93-2B95-4D1C-90C1-3F383D76017D</a:ObjectID>
+<a:CreationDate>1367596822</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367597783</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o177"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o104">
+<a:ObjectID>6ABBBCB6-1F60-4D53-A03E-32BD7A212868</a:ObjectID>
+<a:Name>Client</a:Name>
+<a:Code>CLIENT</a:Code>
+<a:CreationDate>1367224639</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816876</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o178">
+<a:ObjectID>F0FC6EC2-DC0B-426F-9651-7CD02ED12391</a:ObjectID>
+<a:Name>id_client</a:Name>
+<a:Code>ID_CLIENT</a:Code>
+<a:CreationDate>1367224730</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367224790</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o179"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o178"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o179">
+<a:ObjectID>47B714C4-9B32-4D4C-94D6-4E8A1A12830F</a:ObjectID>
+<a:CreationDate>1367224730</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367224785</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o180"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o181">
+<a:ObjectID>1F52D3A5-969B-48CD-99F8-FB10A7ABAC67</a:ObjectID>
+<a:CreationDate>1367224730</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367224785</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o182"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o183">
+<a:ObjectID>EC65914B-D201-4074-AAD3-D4137684E6CE</a:ObjectID>
+<a:CreationDate>1367224730</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367224785</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o184"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o185">
+<a:ObjectID>B9136A73-5237-436A-9EA5-CA4F5369CC78</a:ObjectID>
+<a:CreationDate>1367224730</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367224785</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o186"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o187">
+<a:ObjectID>1A4062A6-BE03-443C-B619-5BBD1887E79B</a:ObjectID>
+<a:CreationDate>1367328196</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367328340</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o188"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o189">
+<a:ObjectID>B07C3EE9-B605-43C6-981F-E453C92F42F1</a:ObjectID>
+<a:CreationDate>1367328196</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367328340</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o190"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o191">
+<a:ObjectID>1F088BEE-7B6A-4B7A-BB84-53D9F3C28A24</a:ObjectID>
+<a:CreationDate>1367328196</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367328340</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o192"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o193">
+<a:ObjectID>CFE6941D-8FF5-43A5-9B5B-9701ED938080</a:ObjectID>
+<a:CreationDate>1367328196</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367328340</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o194"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o195">
+<a:ObjectID>6B6FFDF4-EED3-40DB-A0B0-117770600BE6</a:ObjectID>
+<a:CreationDate>1367328196</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367328340</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o196"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o197">
+<a:ObjectID>DEFA223E-8B45-411C-902B-4D090E75A20B</a:ObjectID>
+<a:CreationDate>1369816860</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816876</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o198"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o106">
+<a:ObjectID>3954FC50-0443-43F9-AE4A-BDE03A243530</a:ObjectID>
+<a:Name>Photo</a:Name>
+<a:Code>PHOTO</a:Code>
+<a:CreationDate>1367229385</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229702</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o199">
+<a:ObjectID>3D4AE358-9973-4032-B21D-79175C46AAC8</a:ObjectID>
+<a:Name>id_photo</a:Name>
+<a:Code>ID_PHOTO</a:Code>
+<a:CreationDate>1367229675</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231908</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o200"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o199"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o200">
+<a:ObjectID>84715F00-BBAB-471B-A99E-2771563F7B56</a:ObjectID>
+<a:CreationDate>1367229387</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229680</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o201"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o202">
+<a:ObjectID>C3D8957A-C3F7-4B7A-811E-428AC538AE3D</a:ObjectID>
+<a:CreationDate>1367229387</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229680</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o203"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o109">
+<a:ObjectID>48D12BC2-31BB-4B97-B68E-26F66C49B220</a:ObjectID>
+<a:Name>Dialogue</a:Name>
+<a:Code>DIALOGUE</a:Code>
+<a:CreationDate>1367229897</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816951</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o204">
+<a:ObjectID>718CB9AA-6319-4928-9E15-A50201B60321</a:ObjectID>
+<a:Name>id_dialogue</a:Name>
+<a:Code>ID_DIALOGUE</a:Code>
+<a:CreationDate>1367232474</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232710</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o205"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o204"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o205">
+<a:ObjectID>8A72EBE2-BDFD-4721-8383-8A921B758752</a:ObjectID>
+<a:CreationDate>1367232474</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232705</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o206"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o207">
+<a:ObjectID>36638F3D-D8F8-4261-9A31-14F239ED6BB9</a:ObjectID>
+<a:CreationDate>1367232474</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232705</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o208"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o209">
+<a:ObjectID>839E4316-D845-4290-AB9E-B003468B4446</a:ObjectID>
+<a:CreationDate>1367232474</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232705</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o210"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o211">
+<a:ObjectID>34A19AF1-5FEB-4EE9-9DE1-3FA0AA661281</a:ObjectID>
+<a:CreationDate>1367233035</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367233049</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o212"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o213">
+<a:ObjectID>93160DF6-39A5-4716-8B24-D94A76BEDC1F</a:ObjectID>
+<a:CreationDate>1369816939</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816951</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o214"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o111">
+<a:ObjectID>CCF76D72-D809-455E-B66C-549D7F8745D0</a:ObjectID>
+<a:Name>Sujet</a:Name>
+<a:Code>SUJET</a:Code>
+<a:CreationDate>1367232454</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816938</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o215">
+<a:ObjectID>97E150FF-D1C9-4E66-BA14-C5D6678CAE2A</a:ObjectID>
+<a:Name>id_sujet</a:Name>
+<a:Code>ID_SUJET</a:Code>
+<a:CreationDate>1367232714</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232998</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o216"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o215"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o216">
+<a:ObjectID>61782E47-135B-47A1-842C-1A58AC1B2E5D</a:ObjectID>
+<a:CreationDate>1367232714</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232758</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o217"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o218">
+<a:ObjectID>52C1D618-EAC4-4229-8B9A-DA1DD2E78796</a:ObjectID>
+<a:CreationDate>1367232714</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232758</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o219"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o220">
+<a:ObjectID>922641B4-6BE9-40C8-9E5A-9E6F7273E3E0</a:ObjectID>
+<a:CreationDate>1367233020</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367233052</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o221"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o222">
+<a:ObjectID>A7E7D12F-7ECE-424A-B873-5E9730565A26</a:ObjectID>
+<a:CreationDate>1369816926</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816938</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o223"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o112">
+<a:ObjectID>700E7D03-FFD2-48F8-92A2-1BBD1963E3E8</a:ObjectID>
+<a:Name>Typepage</a:Name>
+<a:Code>TYPEPAGE</a:Code>
+<a:CreationDate>1367234390</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367234622</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o224">
+<a:ObjectID>79FCD99D-FBD7-4B91-AB68-1A2B5A62011B</a:ObjectID>
+<a:Name>id_typepage</a:Name>
+<a:Code>ID_TYPEPAGE</a:Code>
+<a:CreationDate>1367234618</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367240849</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o225"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o224"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o225">
+<a:ObjectID>20265982-9797-43AC-8D60-A59763B89C43</a:ObjectID>
+<a:CreationDate>1367234393</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367234622</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o226"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o227">
+<a:ObjectID>5116562B-51D5-4D8C-939D-E2FBDAAEE1EE</a:ObjectID>
+<a:CreationDate>1367234393</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367234622</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o228"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o113">
+<a:ObjectID>BB54D374-A3F3-41AA-93E2-A25EF6FF326B</a:ObjectID>
+<a:Name>Email</a:Name>
+<a:Code>EMAIL</a:Code>
+<a:CreationDate>1367327356</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367327431</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o229">
+<a:ObjectID>AF974E13-C018-4776-95EB-3A0366B435CF</a:ObjectID>
+<a:Name>id_email</a:Name>
+<a:Code>ID_EMAIL</a:Code>
+<a:CreationDate>1367327358</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367327411</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o230"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o229"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o230">
+<a:ObjectID>172533AB-3C68-4CC2-8C80-187BFE45D645</a:ObjectID>
+<a:CreationDate>1367327358</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367327407</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o231"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o232">
+<a:ObjectID>4C2ADA92-F386-48F5-B860-E0F880311879</a:ObjectID>
+<a:CreationDate>1367327358</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367327407</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o233"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o234">
+<a:ObjectID>0C62299E-DF30-45F8-9CD2-BFD05381FE64</a:ObjectID>
+<a:CreationDate>1367327358</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367327407</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o235"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o114">
+<a:ObjectID>62900EF2-2498-4829-A3EA-51766476DC32</a:ObjectID>
+<a:Name>Tel</a:Name>
+<a:Code>TEL</a:Code>
+<a:CreationDate>1367331403</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331514</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o236">
+<a:ObjectID>FEC022F6-BFFF-436D-97BD-E94EC792E28E</a:ObjectID>
+<a:Name>id_tel</a:Name>
+<a:Code>ID_TEL</a:Code>
+<a:CreationDate>1367331405</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331836</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o237"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o236"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o237">
+<a:ObjectID>1ADDA720-B465-4D62-8943-9CF05699742F</a:ObjectID>
+<a:CreationDate>1367331405</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331497</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o238"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o239">
+<a:ObjectID>DA641787-B527-44F5-9072-8FAC299C2F67</a:ObjectID>
+<a:CreationDate>1367331405</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331497</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o240"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o241">
+<a:ObjectID>5ABDAFFB-5705-43CE-955A-7AC2E75EA9D0</a:ObjectID>
+<a:CreationDate>1367331405</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331497</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o242"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o243">
+<a:ObjectID>EBB92F00-177A-4D08-B6EB-66600D328063</a:ObjectID>
+<a:CreationDate>1367331405</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331497</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o244"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o115">
+<a:ObjectID>0E90F624-71F3-4583-BA2C-B8569A84C6E6</a:ObjectID>
+<a:Name>Actualite</a:Name>
+<a:Code>ACTUALITE</a:Code>
+<a:CreationDate>1367331731</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331855</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o245">
+<a:ObjectID>08061545-38B6-4A5C-AAEF-8D2B5A19480A</a:ObjectID>
+<a:Name>id_actualite</a:Name>
+<a:Code>ID_ACTUALITE</a:Code>
+<a:CreationDate>1367331733</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331830</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o246"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o245"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o246">
+<a:ObjectID>7C1BCED0-64AB-44FF-BD89-0B78E9782AA4</a:ObjectID>
+<a:CreationDate>1367331733</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331830</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o247"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o248">
+<a:ObjectID>7C7DEDD3-C617-42FB-A343-EF2D1D03AFC4</a:ObjectID>
+<a:CreationDate>1367331733</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331830</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o249"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o117">
+<a:ObjectID>F587FF17-B646-47E5-9614-14497BD05A8E</a:ObjectID>
+<a:Name>Clientnewsletter</a:Name>
+<a:Code>CLIENTNEWSLETTER</a:Code>
+<a:CreationDate>1367332013</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332143</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o250">
+<a:ObjectID>A61CAE4B-A588-4074-8346-936482FE5157</a:ObjectID>
+<a:Name>id_clientnewsletter</a:Name>
+<a:Code>ID_CLIENTNEWSLETTER</a:Code>
+<a:CreationDate>1367332015</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332081</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o251"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o250"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o251">
+<a:ObjectID>5FE1A284-EE99-42DA-803B-2F06FADB0BAF</a:ObjectID>
+<a:CreationDate>1367332015</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332077</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o252"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o253">
+<a:ObjectID>E85B2DA1-7D46-4244-9C66-1F136FFD2210</a:ObjectID>
+<a:CreationDate>1367332015</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332077</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o254"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o255">
+<a:ObjectID>EDD48D96-2262-43F1-9C7D-F509FB458BA6</a:ObjectID>
+<a:CreationDate>1367332015</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332077</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o256"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o118">
+<a:ObjectID>A8F0FACF-D362-4141-A769-7C4401E1B6CF</a:ObjectID>
+<a:Name>Newsletter</a:Name>
+<a:Code>NEWSLETTER</a:Code>
+<a:CreationDate>1367332157</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332291</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o257">
+<a:ObjectID>EFE26E92-9BB1-4F94-8382-C76F531AC803</a:ObjectID>
+<a:Name>id_newsletter</a:Name>
+<a:Code>ID_NEWSLETTER</a:Code>
+<a:CreationDate>1367332159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332271</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o258"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o257"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o258">
+<a:ObjectID>89468DBE-DCA0-478F-8D4B-34713B585219</a:ObjectID>
+<a:CreationDate>1367332159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332271</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o259"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o260">
+<a:ObjectID>B66C1792-86F1-439E-81CD-3A836E121A2F</a:ObjectID>
+<a:CreationDate>1367332159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332271</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o261"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o262">
+<a:ObjectID>D2C11CE4-CA0B-4DB0-AA30-E741474987A7</a:ObjectID>
+<a:CreationDate>1367332159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332271</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o263"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o264">
+<a:ObjectID>1DE8CFD9-152B-44E2-A5EC-5645793BA86C</a:ObjectID>
+<a:CreationDate>1367332159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332271</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o265"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o119">
+<a:ObjectID>84D331EB-C14A-4D6D-97F6-BCAD720786F3</a:ObjectID>
+<a:Name>Reseausosial</a:Name>
+<a:Code>RESEAUSOSIAL</a:Code>
+<a:CreationDate>1367481783</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367481958</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o266">
+<a:ObjectID>D5490051-A871-4452-8524-31CE5B3B1CC2</a:ObjectID>
+<a:Name>id_resocial</a:Name>
+<a:Code>ID_RESOCIAL</a:Code>
+<a:CreationDate>1367481785</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367481967</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o267"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o266"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o267">
+<a:ObjectID>BB1C9333-5D16-460D-B6F2-130FB3106B72</a:ObjectID>
+<a:CreationDate>1367481785</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367481921</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o268"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o269">
+<a:ObjectID>8B086C86-6879-453F-AFAF-C003779D6943</a:ObjectID>
+<a:CreationDate>1367481785</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367481921</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o270"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o271">
+<a:ObjectID>A0894D6A-013F-4275-9BC9-383161BD4116</a:ObjectID>
+<a:CreationDate>1367481785</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367481921</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o272"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o121">
+<a:ObjectID>F15D77EB-7ABC-4C1D-8C7A-C6668E39F79C</a:ObjectID>
+<a:Name>TypeAdmin</a:Name>
+<a:Code>TYPEADMIN</a:Code>
+<a:CreationDate>1369815059</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815632</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o273">
+<a:ObjectID>933D95FD-D4EB-471F-8B07-047C2385BC07</a:ObjectID>
+<a:Name>id_typeadmin</a:Name>
+<a:Code>ID_TYPEADMIN</a:Code>
+<a:CreationDate>1369815628</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815643</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o274"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o273"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o274">
+<a:ObjectID>BFB2B3A6-F63E-4363-BA91-D65AA658A29E</a:ObjectID>
+<a:CreationDate>1369815061</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815632</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o275"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o276">
+<a:ObjectID>BA49D046-D8B5-460C-903B-A238D76D300D</a:ObjectID>
+<a:CreationDate>1369815061</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815632</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o277"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o122">
+<a:ObjectID>17442F29-9A9C-4088-9328-79F43E147C5A</a:ObjectID>
+<a:Name>EtatProjet</a:Name>
+<a:Code>ETATPROJET</a:Code>
+<a:CreationDate>1369815521</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815660</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o278">
+<a:ObjectID>977563A8-80C1-4DEB-AC58-1B7D2D9DFFAE</a:ObjectID>
+<a:Name>id_etatprojet</a:Name>
+<a:Code>ID_ETATPROJET</a:Code>
+<a:CreationDate>1369815619</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815639</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o279"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o278"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o279">
+<a:ObjectID>D5D0DABC-20FC-43BF-9CA1-CDDB0CD8602D</a:ObjectID>
+<a:CreationDate>1369815527</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815623</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o280"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o281">
+<a:ObjectID>DE7044A4-67BE-4999-8882-2194E266BC68</a:ObjectID>
+<a:CreationDate>1369815527</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815623</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o282"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+</c:Entities>
+<c:Relationships>
+<o:Relationship Id="o26">
+<a:ObjectID>12B49249-8A4C-42C5-9661-7098A0D7FE7B</a:ObjectID>
+<a:Name>Relation_2</a:Name>
+<a:Code>RELATION_2</a:Code>
+<a:CreationDate>1367229510</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229526</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o101"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o98"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o33">
+<a:ObjectID>620B7204-CEA6-48CE-B8E1-21C0E0FC2515</a:ObjectID>
+<a:Name>Relation_3</a:Name>
+<a:Code>RELATION_3</a:Code>
+<a:CreationDate>1367229693</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229702</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o106"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o101"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o41">
+<a:ObjectID>D2EDF36B-75A1-4B26-BE57-620F729A8E6F</a:ObjectID>
+<a:Name>Relation_5</a:Name>
+<a:Code>RELATION_5</a:Code>
+<a:CreationDate>1367231185</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332351</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o98"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o104"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o43">
+<a:ObjectID>36958539-7B90-425C-B51F-7AADF5164CEA</a:ObjectID>
+<a:Name>Relation_6</a:Name>
+<a:Code>RELATION_6</a:Code>
+<a:CreationDate>1367231810</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332332</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o100"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o98"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o47">
+<a:ObjectID>5157D543-AB01-42A8-9812-E1B4DAB4F3D2</a:ObjectID>
+<a:Name>Relation_7</a:Name>
+<a:Code>RELATION_7</a:Code>
+<a:CreationDate>1367233010</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367233016</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o109"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o111"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o49">
+<a:ObjectID>2A2A1A33-5B0F-462A-9FE4-35F903ADCE17</a:ObjectID>
+<a:Name>Relation_8</a:Name>
+<a:Code>RELATION_8</a:Code>
+<a:CreationDate>1367233074</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367233094</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o98"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o111"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o52">
+<a:ObjectID>31BE4FBA-2BC9-48C2-9448-B74193261413</a:ObjectID>
+<a:Name>Relation_9</a:Name>
+<a:Code>RELATION_9</a:Code>
+<a:CreationDate>1367234529</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367234541</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o112"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o100"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o55">
+<a:ObjectID>6FAD060A-4380-483B-AE98-DF1CDDC37B31</a:ObjectID>
+<a:Name>Relation_10</a:Name>
+<a:Code>RELATION_10</a:Code>
+<a:CreationDate>1367327422</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367327431</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o113"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o98"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o58">
+<a:ObjectID>414CC664-AFF3-4747-95D2-AAB7658CDA65</a:ObjectID>
+<a:Name>Relation_11</a:Name>
+<a:Code>RELATION_11</a:Code>
+<a:CreationDate>1367331507</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331514</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o114"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o104"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o66">
+<a:ObjectID>6E70C72D-6731-436E-B6C8-7D6379D6E41C</a:ObjectID>
+<a:Name>Relation_12</a:Name>
+<a:Code>RELATION_12</a:Code>
+<a:CreationDate>1367331927</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331927</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o98"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o115"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o69">
+<a:ObjectID>8D2E7064-6173-4C85-8CA0-E573FE0C9336</a:ObjectID>
+<a:Name>Relation_13</a:Name>
+<a:Code>RELATION_13</a:Code>
+<a:CreationDate>1367332084</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332111</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o98"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o117"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o71">
+<a:ObjectID>F4A7A033-B4ED-42B2-B63A-EDED05F1ED3C</a:ObjectID>
+<a:Name>Relation_14</a:Name>
+<a:Code>RELATION_14</a:Code>
+<a:CreationDate>1367332116</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332143</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o99"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o117"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o74">
+<a:ObjectID>0D69E726-EF68-4AAD-88F7-388E0009144E</a:ObjectID>
+<a:Name>Relation_15</a:Name>
+<a:Code>RELATION_15</a:Code>
+<a:CreationDate>1367332277</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332291</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o98"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o118"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o77">
+<a:ObjectID>B4764E1C-45B4-4ADA-8CBF-E6A8C00EB2EE</a:ObjectID>
+<a:Name>Relation_16</a:Name>
+<a:Code>RELATION_16</a:Code>
+<a:CreationDate>1367481929</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367481958</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o98"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o119"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o86">
+<a:ObjectID>7063F673-3C39-46EF-88D6-588F851398EC</a:ObjectID>
+<a:Name>Relation_17</a:Name>
+<a:Code>RELATION_17</a:Code>
+<a:CreationDate>1369815119</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815176</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o103"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o121"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o89">
+<a:ObjectID>0840FB2D-593B-424D-89C4-A1205D9CDCB4</a:ObjectID>
+<a:Name>Relation_18</a:Name>
+<a:Code>RELATION_18</a:Code>
+<a:CreationDate>1369815525</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815660</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o122"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o98"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o91">
+<a:ObjectID>E98A9F01-4EA3-4FC8-BD0A-69117C2C7223</a:ObjectID>
+<a:Name>Relation_19</a:Name>
+<a:Code>RELATION_19</a:Code>
+<a:CreationDate>1369817563</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369817563</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o111"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o103"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o93">
+<a:ObjectID>3A4F44ED-2723-411C-BAA2-4ECCE6533041</a:ObjectID>
+<a:Name>Relation_20</a:Name>
+<a:Code>RELATION_20</a:Code>
+<a:CreationDate>1369817564</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369817564</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o111"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o104"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o95">
+<a:ObjectID>AA2D8458-AB5E-46BF-BAD8-DCC31313D794</a:ObjectID>
+<a:Name>Relation_21</a:Name>
+<a:Code>RELATION_21</a:Code>
+<a:CreationDate>1369817568</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369817568</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o109"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o103"/>
+</c:Object2>
+</o:Relationship>
+<o:Relationship Id="o97">
+<a:ObjectID>A9DDB3EA-1EB0-4B5D-A36D-CD589932423E</a:ObjectID>
+<a:Name>Relation_22</a:Name>
+<a:Code>RELATION_22</a:Code>
+<a:CreationDate>1369817570</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369817570</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o109"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o104"/>
+</c:Object2>
+</o:Relationship>
+</c:Relationships>
+<c:DataItems>
+<o:DataItem Id="o125">
+<a:ObjectID>92F24E23-7027-4F06-9315-1F6BE2154929</a:ObjectID>
+<a:Name>id_projet</a:Name>
+<a:Code>ID_PROJET</a:Code>
+<a:CreationDate>1367222147</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o127">
+<a:ObjectID>EE716944-B5F2-4192-B8EF-98C3C930745C</a:ObjectID>
+<a:Name>nom_projet</a:Name>
+<a:Code>NOM_PROJET</a:Code>
+<a:CreationDate>1367222147</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o129">
+<a:ObjectID>CF16E46B-E342-42D1-B6C5-5514DAAE4B76</a:ObjectID>
+<a:Name>user_projet</a:Name>
+<a:Code>USER_PROJET</a:Code>
+<a:CreationDate>1367222147</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369817315</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o131">
+<a:ObjectID>27D8722D-4C37-4205-A673-625C0FDE53B6</a:ObjectID>
+<a:Name>pass_projet</a:Name>
+<a:Code>PASS_PROJET</a:Code>
+<a:CreationDate>1367222147</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o133">
+<a:ObjectID>7657CD54-7F17-4ECD-AE1F-1ABA8921D616</a:ObjectID>
+<a:Name>analytics_projet</a:Name>
+<a:Code>ANALYTICS_PROJET</a:Code>
+<a:CreationDate>1367223159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o148">
+<a:ObjectID>B2F13BAF-D185-4440-8D47-7BAB178388B4</a:ObjectID>
+<a:Name>iso_langue</a:Name>
+<a:Code>ISO_LANGUE</a:Code>
+<a:CreationDate>1367223346</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223370</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA5</a:DataType>
+<a:Length>5</a:Length>
+</o:DataItem>
+<o:DataItem Id="o283">
+<a:ObjectID>A12CF6B4-73DD-4761-95A9-DF9013E7DC7E</a:ObjectID>
+<a:Name>default_languesite</a:Name>
+<a:Code>DEFAULT_LANGUESITE</a:Code>
+<a:CreationDate>1367223517</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815375</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o284">
+<a:ObjectID>B88A3343-FA3D-47E2-9DFF-D1AAFD9B8DDB</a:ObjectID>
+<a:Name>position_languesite</a:Name>
+<a:Code>POSITION_LANGUESITE</a:Code>
+<a:CreationDate>1367223517</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223587</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o285">
+<a:ObjectID>F647D2FC-CD77-4271-94C3-0434F7912C2A</a:ObjectID>
+<a:Name>desctipion_languesite</a:Name>
+<a:Code>DESCTIPION_LANGUESITE</a:Code>
+<a:CreationDate>1367223596</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223658</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o286">
+<a:ObjectID>C64DB910-1579-4EA0-AAAA-CBB334A3A6D9</a:ObjectID>
+<a:Name>title_languesite</a:Name>
+<a:Code>TITLE_LANGUESITE</a:Code>
+<a:CreationDate>1367223596</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223658</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o287">
+<a:ObjectID>5C1E8A51-6E2A-437E-87D7-FECC7CA731C7</a:ObjectID>
+<a:Name>pays_languesite</a:Name>
+<a:Code>PAYS_LANGUESITE</a:Code>
+<a:CreationDate>1367223685</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223726</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o163">
+<a:ObjectID>9BB6CB33-826A-48C5-A87A-723F642EAEEC</a:ObjectID>
+<a:Name>id_admin</a:Name>
+<a:Code>ID_ADMIN</a:Code>
+<a:CreationDate>1367223803</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223872</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o165">
+<a:ObjectID>60BCFAF4-32E4-4753-B3E9-DD113859E393</a:ObjectID>
+<a:Name>email_admin</a:Name>
+<a:Code>EMAIL_ADMIN</a:Code>
+<a:CreationDate>1367223803</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223872</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o167">
+<a:ObjectID>EF6674D1-8CAC-4BBB-A7D6-314681B57E8A</a:ObjectID>
+<a:Name>pass_admin</a:Name>
+<a:Code>PASS_ADMIN</a:Code>
+<a:CreationDate>1367223803</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223872</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o169">
+<a:ObjectID>23567BDF-1DFC-4F21-8444-D5686E3AFDFF</a:ObjectID>
+<a:Name>actif_admin</a:Name>
+<a:Code>ACTIF_ADMIN</a:Code>
+<a:CreationDate>1367223803</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815045</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o288">
+<a:ObjectID>C0320C31-14DD-4C55-9D80-B580DFBCC620</a:ObjectID>
+<a:Name>type_admin</a:Name>
+<a:Code>TYPE_ADMIN</a:Code>
+<a:CreationDate>1367224100</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816729</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+</o:DataItem>
+<o:DataItem Id="o135">
+<a:ObjectID>402D4FDC-D69F-4DB5-A16C-C373D4B18449</a:ObjectID>
+<a:Name>maintenance_projet</a:Name>
+<a:Code>MAINTENANCE_PROJET</a:Code>
+<a:CreationDate>1367224318</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o180">
+<a:ObjectID>FB87C4B2-A0E9-4D27-BC53-0D63B8F6E6CA</a:ObjectID>
+<a:Name>id_client</a:Name>
+<a:Code>ID_CLIENT</a:Code>
+<a:CreationDate>1367224730</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367226121</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o182">
+<a:ObjectID>472E64C8-163F-41B0-A00A-2E0B1338024A</a:ObjectID>
+<a:Name>nom_client</a:Name>
+<a:Code>NOM_CLIENT</a:Code>
+<a:CreationDate>1367224730</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367226121</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o184">
+<a:ObjectID>7A1C5004-B0C2-4F46-966C-B8AAC74BDD59</a:ObjectID>
+<a:Name>prenom_client</a:Name>
+<a:Code>PRENOM_CLIENT</a:Code>
+<a:CreationDate>1367224730</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367226121</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o186">
+<a:ObjectID>F4902C4B-DB5A-4B8A-9CEA-FB3FAF27435D</a:ObjectID>
+<a:Name>email_client</a:Name>
+<a:Code>EMAIL_CLIENT</a:Code>
+<a:CreationDate>1367224730</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367226121</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o289">
+<a:ObjectID>19B40C67-C4DC-4860-B572-93ED08CC7FB5</a:ObjectID>
+<a:Name>gon_projet</a:Name>
+<a:Code>PRODUCTION_PROJET</a:Code>
+<a:CreationDate>1367225008</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815803</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o137">
+<a:ObjectID>C6B711AF-9A27-4D36-B2FD-E29917671D26</a:ObjectID>
+<a:Name>dateproduction_projet</a:Name>
+<a:Code>DATEPRODUCTION_PROJET</a:Code>
+<a:CreationDate>1367225046</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>DT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o139">
+<a:ObjectID>C98D7787-3A36-4372-8E61-3250B8DB1F4D</a:ObjectID>
+<a:Name>date_projet</a:Name>
+<a:Code>DATE_PROJET</a:Code>
+<a:CreationDate>1367225100</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>DT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o151">
+<a:ObjectID>A833B740-5D55-40B5-91ED-5888C5C0C28C</a:ObjectID>
+<a:Name>id_page</a:Name>
+<a:Code>ID_PAGE</a:Code>
+<a:CreationDate>1367228590</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367228672</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o290">
+<a:ObjectID>C7C07513-B3E2-4CF1-B463-34515C13C93E</a:ObjectID>
+<a:Name>titre_pagelangue</a:Name>
+<a:Code>TITRE_PAGELANGUE</a:Code>
+<a:CreationDate>1367228731</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231893</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o291">
+<a:ObjectID>F87260C4-C12F-495D-8702-2B5EBE6E620D</a:ObjectID>
+<a:Name>content_pagelangue</a:Name>
+<a:Code>CONTENT_PAGELANGUE</a:Code>
+<a:CreationDate>1367228731</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231893</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o292">
+<a:ObjectID>ACBC4162-02B4-4184-83BD-CD4C8E6D58FF</a:ObjectID>
+<a:Name>title_pagelangue</a:Name>
+<a:Code>TITLE_PAGELANGUE</a:Code>
+<a:CreationDate>1367228731</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231893</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o293">
+<a:ObjectID>37533E98-7805-43AD-8CF2-E41172E7FD0C</a:ObjectID>
+<a:Name>description_pagelangue</a:Name>
+<a:Code>DESCRIPTION_PAGELANGUE</a:Code>
+<a:CreationDate>1367228731</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231893</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o160">
+<a:ObjectID>38B506C8-316A-4BA1-8EBF-7BFF844D44D2</a:ObjectID>
+<a:Name>id_gallerie</a:Name>
+<a:Code>ID_GALLERIE</a:Code>
+<a:CreationDate>1367229010</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231923</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o153">
+<a:ObjectID>D1CCE77D-52AD-4D54-9CA0-401C159E9E20</a:ObjectID>
+<a:Name>menu_page</a:Name>
+<a:Code>MENU_PAGE</a:Code>
+<a:CreationDate>1367229041</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815453</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o155">
+<a:ObjectID>5293C7A5-AE71-482D-9C21-BA84822056D4</a:ObjectID>
+<a:Name>parent_page</a:Name>
+<a:Code>PARENT_PAGE</a:Code>
+<a:CreationDate>1367229041</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231857</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o201">
+<a:ObjectID>24153976-7A09-4313-A1A9-AB5A65A8DFE2</a:ObjectID>
+<a:Name>id_photo</a:Name>
+<a:Code>ID_PHOTO</a:Code>
+<a:CreationDate>1367229387</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231908</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o203">
+<a:ObjectID>826C5F16-D39E-4DA7-A7CE-D3A5F124806A</a:ObjectID>
+<a:Name>order_photo</a:Name>
+<a:Code>ORDER_PHOTO</a:Code>
+<a:CreationDate>1367229387</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231908</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o294">
+<a:ObjectID>45C1839A-9AD7-40AA-9043-CC40AE4CD567</a:ObjectID>
+<a:Name>titre_photolangue</a:Name>
+<a:Code>TITRE_PHOTOLANGUE</a:Code>
+<a:CreationDate>1367229413</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229469</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o295">
+<a:ObjectID>41A2CF13-25AC-4907-AEA5-8A40DE374262</a:ObjectID>
+<a:Name>description_photolangue</a:Name>
+<a:Code>DESCRIPTION_PHOTOLANGUE</a:Code>
+<a:CreationDate>1367229413</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229469</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o296">
+<a:ObjectID>04EDBA84-A8FE-4D25-960C-89421024738F</a:ObjectID>
+<a:Name>titre_gallerielangue</a:Name>
+<a:Code>TITRE_GALLERIELANGUE</a:Code>
+<a:CreationDate>1367229598</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229646</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o297">
+<a:ObjectID>1B31F38B-4F4D-4565-B3E1-C43FA281DC70</a:ObjectID>
+<a:Name>description_gallerielangue</a:Name>
+<a:Code>DESCRIPTION_GALLERIELANGUE</a:Code>
+<a:CreationDate>1367229598</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229646</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o298">
+<a:ObjectID>DEC943EA-C0B4-4533-AAA5-3E858EDE8FBB</a:ObjectID>
+<a:Name>position_galleriepage</a:Name>
+<a:Code>POSITION_GALLERIEPAGE</a:Code>
+<a:CreationDate>1367230369</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367230389</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o157">
+<a:ObjectID>9D088CF7-CCBC-4D47-8266-2E26C53010CE</a:ObjectID>
+<a:Name>order_page</a:Name>
+<a:Code>ORDER_PAGE</a:Code>
+<a:CreationDate>1367231819</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367231857</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o206">
+<a:ObjectID>B911600B-F3BF-4D24-977A-A8D7D037CEE4</a:ObjectID>
+<a:Name>id_dialogue</a:Name>
+<a:Code>ID_DIALOGUE</a:Code>
+<a:CreationDate>1367232474</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232705</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o208">
+<a:ObjectID>11D07C2B-C6BB-409E-8078-5A32D08FF287</a:ObjectID>
+<a:Name>auteur_dialogue</a:Name>
+<a:Code>AUTEUR_DIALOGUE</a:Code>
+<a:CreationDate>1367232474</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369817427</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o210">
+<a:ObjectID>36233141-5221-4AF4-94DD-C3B1451C2162</a:ObjectID>
+<a:Name>description_dialogue</a:Name>
+<a:Code>DESCRIPTION_DIALOGUE</a:Code>
+<a:CreationDate>1367232474</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232705</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o217">
+<a:ObjectID>9E25BA9A-8DBF-47CD-9F12-E025E4A23340</a:ObjectID>
+<a:Name>id_sujet</a:Name>
+<a:Code>ID_SUJET</a:Code>
+<a:CreationDate>1367232714</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232758</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o219">
+<a:ObjectID>DB83B56B-CA75-4B06-89CC-D265680DC46C</a:ObjectID>
+<a:Name>titre_sujet</a:Name>
+<a:Code>TITRE_SUJET</a:Code>
+<a:CreationDate>1367232714</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367232758</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o221">
+<a:ObjectID>8F2CFE9E-478A-4633-B511-FE864AB8E80B</a:ObjectID>
+<a:Name>date_sujet</a:Name>
+<a:Code>DATE_SUJET</a:Code>
+<a:CreationDate>1367233020</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367233034</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>DT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o212">
+<a:ObjectID>060B1151-E262-4CCB-ACB4-D33D90872C72</a:ObjectID>
+<a:Name>date_dialogue</a:Name>
+<a:Code>DATE_DIALOGUE</a:Code>
+<a:CreationDate>1367233035</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367233049</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>DT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o226">
+<a:ObjectID>16A56706-69B4-438C-AF60-5C3C0A03CFD9</a:ObjectID>
+<a:Name>id_typepage</a:Name>
+<a:Code>ID_TYPEPAGE</a:Code>
+<a:CreationDate>1367234393</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367234525</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o228">
+<a:ObjectID>814B894A-35F1-45CF-BAC3-4E698370ADAA</a:ObjectID>
+<a:Name>nom_typepage</a:Name>
+<a:Code>NOM_TYPEPAGE</a:Code>
+<a:CreationDate>1367234393</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367234525</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o299">
+<a:ObjectID>16F60ED0-F1BC-4E60-B298-F4B0530A0AB4</a:ObjectID>
+<a:Name>actif_languesite</a:Name>
+<a:Code>ACTIF_LANGUESITE</a:Code>
+<a:CreationDate>1367242203</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815375</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o231">
+<a:ObjectID>C576B99A-DAE9-48C8-84EC-623AE5C8DBDC</a:ObjectID>
+<a:Name>id_email</a:Name>
+<a:Code>ID_EMAIL</a:Code>
+<a:CreationDate>1367327358</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815300</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o233">
+<a:ObjectID>5D4B2F88-5B10-4968-A6FE-557F9080E6BD</a:ObjectID>
+<a:Name>adresse_email</a:Name>
+<a:Code>ADRESSE_EMAIL</a:Code>
+<a:CreationDate>1367327358</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815300</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o235">
+<a:ObjectID>B10942A2-7696-4303-B580-5209998C5DC7</a:ObjectID>
+<a:Name>default_email</a:Name>
+<a:Code>DEFAULT_EMAIL</a:Code>
+<a:CreationDate>1367327358</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815300</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o188">
+<a:ObjectID>EDEFF647-F404-475E-8FEC-1735ACC01FFA</a:ObjectID>
+<a:Name>adresse_client</a:Name>
+<a:Code>ADRESSE_CLIENT</a:Code>
+<a:CreationDate>1367328196</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367328340</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o190">
+<a:ObjectID>B489E45A-F10E-4EF7-9316-35DBD0C908DE</a:ObjectID>
+<a:Name>pays_client</a:Name>
+<a:Code>PAYS_CLIENT</a:Code>
+<a:CreationDate>1367328196</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367328340</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o192">
+<a:ObjectID>CA09DA2F-7E3E-487D-A6A3-F414EFEA108E</a:ObjectID>
+<a:Name>codepostal_client</a:Name>
+<a:Code>CODEPOSTAL_CLIENT</a:Code>
+<a:CreationDate>1367328196</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367328340</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o194">
+<a:ObjectID>7CD313F0-D155-462D-9A40-378972493946</a:ObjectID>
+<a:Name>logitude_client</a:Name>
+<a:Code>LOGITUDE_CLIENT</a:Code>
+<a:CreationDate>1367328196</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367328340</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o196">
+<a:ObjectID>BCFEECE4-6181-4035-9306-C422D6886AF5</a:ObjectID>
+<a:Name>lattidude_client</a:Name>
+<a:Code>LATTIDUDE_CLIENT</a:Code>
+<a:CreationDate>1367328196</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367328340</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o141">
+<a:ObjectID>69A5FFB9-60CC-48A5-96BE-C067181FF3C3</a:ObjectID>
+<a:Name>lattitude_projet</a:Name>
+<a:Code>LATTITUDE_PROJET</a:Code>
+<a:CreationDate>1367330476</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o143">
+<a:ObjectID>1955987A-437E-44A9-9B24-1567285A1919</a:ObjectID>
+<a:Name>longitude_projet</a:Name>
+<a:Code>LONGITUDE_PROJET</a:Code>
+<a:CreationDate>1367330476</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o238">
+<a:ObjectID>5634297F-DB14-4A4F-A034-53A040FBB40F</a:ObjectID>
+<a:Name>id_tel</a:Name>
+<a:Code>ID_TEL</a:Code>
+<a:CreationDate>1367331405</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331497</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o240">
+<a:ObjectID>9AC579C6-FDD0-49A4-BE88-EE323FDED32C</a:ObjectID>
+<a:Name>num_tel</a:Name>
+<a:Code>NUM_TEL</a:Code>
+<a:CreationDate>1367331405</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331497</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o242">
+<a:ObjectID>7B098A3E-1A09-4C01-9153-1D841ACD806E</a:ObjectID>
+<a:Name>type_tel</a:Name>
+<a:Code>TYPE_TEL</a:Code>
+<a:CreationDate>1367331405</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331497</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o244">
+<a:ObjectID>2B74FF18-65FF-4280-B4B3-08544863476B</a:ObjectID>
+<a:Name>principale_tel</a:Name>
+<a:Code>PRINCIPALE_TEL</a:Code>
+<a:CreationDate>1367331405</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815863</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o247">
+<a:ObjectID>8C174A1C-6E4A-4098-8D13-4C3333CF977E</a:ObjectID>
+<a:Name>id_actualite</a:Name>
+<a:Code>ID_ACTUALITE</a:Code>
+<a:CreationDate>1367331733</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331830</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o249">
+<a:ObjectID>70224BB2-8FF6-479F-84EC-CDD4ECF0A64E</a:ObjectID>
+<a:Name>date_actualite</a:Name>
+<a:Code>DATE_ACTUALITE</a:Code>
+<a:CreationDate>1367331733</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331830</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>DT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o300">
+<a:ObjectID>8111105A-0DA1-43AF-A3B8-8832D6A93C18</a:ObjectID>
+<a:Name>titre_aclulangue</a:Name>
+<a:Code>TITRE_ACLULANGUE</a:Code>
+<a:CreationDate>1367331874</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331911</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o301">
+<a:ObjectID>DC349F3C-C8F5-4588-BA2E-8CA42926D8B7</a:ObjectID>
+<a:Name>text-actulangue</a:Name>
+<a:Code>TEXT_ACTULANGUE</a:Code>
+<a:CreationDate>1367331874</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331911</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o252">
+<a:ObjectID>0FFF3ED6-FE02-4EE2-BBFB-A56AB3E30FE0</a:ObjectID>
+<a:Name>id_clientnewsletter</a:Name>
+<a:Code>ID_CLIENTNEWSLETTER</a:Code>
+<a:CreationDate>1367332015</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332077</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o254">
+<a:ObjectID>9755A2C5-87AD-4012-99BF-E4BE9EDEF2B9</a:ObjectID>
+<a:Name>actif_client_newsletter</a:Name>
+<a:Code>ACTIF_CLIENT_NEWSLETTER</a:Code>
+<a:CreationDate>1367332015</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815255</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o256">
+<a:ObjectID>BD669B44-2D42-4AA9-ACCD-9B94763C9FF0</a:ObjectID>
+<a:Name>email_clientnewsletter</a:Name>
+<a:Code>EMAIL_CLIENTNEWSLETTER</a:Code>
+<a:CreationDate>1367332015</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332077</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o259">
+<a:ObjectID>4CBE9D45-D9C8-4C8F-A81A-994D81EDDC48</a:ObjectID>
+<a:Name>id_newsletter</a:Name>
+<a:Code>ID_NEWSLETTER</a:Code>
+<a:CreationDate>1367332159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332271</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o261">
+<a:ObjectID>BC2C3974-F823-4479-A817-4943E6B22D98</a:ObjectID>
+<a:Name>sujet_newsletter</a:Name>
+<a:Code>SUJET_NEWSLETTER</a:Code>
+<a:CreationDate>1367332159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332271</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o263">
+<a:ObjectID>4E8335F8-D9CF-4CA5-B711-1852A4B74E0C</a:ObjectID>
+<a:Name>body_newsletter</a:Name>
+<a:Code>BODY_NEWSLETTER</a:Code>
+<a:CreationDate>1367332159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332271</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o265">
+<a:ObjectID>603DD217-7265-4B51-9A6A-E7006F62F3DA</a:ObjectID>
+<a:Name>date_newsletter</a:Name>
+<a:Code>DATE_NEWSLETTER</a:Code>
+<a:CreationDate>1367332159</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367332271</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>DT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o268">
+<a:ObjectID>720B1294-5080-4C90-9D42-55A35F98FE2E</a:ObjectID>
+<a:Name>id_resocial</a:Name>
+<a:Code>ID_RESOCIAL</a:Code>
+<a:CreationDate>1367481785</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367481921</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o270">
+<a:ObjectID>51224C60-2BC1-4ECA-B100-19D45A7047DB</a:ObjectID>
+<a:Name>nom_resocial</a:Name>
+<a:Code>NOM_RESOCIAL</a:Code>
+<a:CreationDate>1367481785</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367481921</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o272">
+<a:ObjectID>7EF901E1-7B0B-480F-8F4B-B2D28BE0D23A</a:ObjectID>
+<a:Name>url_resocial</a:Name>
+<a:Code>URL_RESOCIAL</a:Code>
+<a:CreationDate>1367481785</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367481921</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o302">
+<a:ObjectID>DA6328DE-4D30-4130-8350-48D690E098CE</a:ObjectID>
+<a:Name>etat_site</a:Name>
+<a:Code>ETAT_SITE</a:Code>
+<a:CreationDate>1367592966</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815516</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+</o:DataItem>
+<o:DataItem Id="o171">
+<a:ObjectID>9AB8B1FF-8322-4538-8BC4-CD6CFA0E5206</a:ObjectID>
+<a:Name>nom_admin</a:Name>
+<a:Code>NOM_ADMIN</a:Code>
+<a:CreationDate>1367596822</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367597783</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o173">
+<a:ObjectID>365A2A08-C246-4090-BE8D-BB21D6EBC231</a:ObjectID>
+<a:Name>prenom_admin</a:Name>
+<a:Code>PRENOM_ADMIN</a:Code>
+<a:CreationDate>1367596822</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367597783</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o175">
+<a:ObjectID>11B9AC9B-F66F-4903-8319-636BBF389754</a:ObjectID>
+<a:Name>datenaissance_admin</a:Name>
+<a:Code>DATENAISSANCE_ADMIN</a:Code>
+<a:CreationDate>1367596822</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367597783</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>DT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o177">
+<a:ObjectID>CC6346B4-B434-4B43-88E5-C7EA1A944988</a:ObjectID>
+<a:Name>tel_admin</a:Name>
+<a:Code>TEL_ADMIN</a:Code>
+<a:CreationDate>1367596822</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367597783</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o303">
+<a:ObjectID>35B07399-A1C1-4C87-A49E-7F12C2880998</a:ObjectID>
+<a:Name>debut_adminprojet</a:Name>
+<a:Code>DEBUT_ADMINPROJET</a:Code>
+<a:CreationDate>1367597981</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816791</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>DT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o304">
+<a:ObjectID>B25C10B6-D3B5-4A82-8842-62A6C9E27271</a:ObjectID>
+<a:Name>fin_adminprojet</a:Name>
+<a:Code>FIN_ADMINPROJET</a:Code>
+<a:CreationDate>1367597981</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816791</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>DT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o275">
+<a:ObjectID>CB3BBD81-0D7C-4012-BB3A-7B951935D6EF</a:ObjectID>
+<a:Name>id_typeadmin</a:Name>
+<a:Code>ID_TYPEADMIN</a:Code>
+<a:CreationDate>1369815061</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815104</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o277">
+<a:ObjectID>D7316F90-6C02-4862-AC6B-AEE2D6505867</a:ObjectID>
+<a:Name>libelle_typeadmin</a:Name>
+<a:Code>LIBELLE_TYPEADMIN</a:Code>
+<a:CreationDate>1369815061</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815104</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o280">
+<a:ObjectID>FB59493C-D59A-4C90-B105-8B29D7C8FB77</a:ObjectID>
+<a:Name>id_etatprojet</a:Name>
+<a:Code>ID_ETATPROJET</a:Code>
+<a:CreationDate>1369815527</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815580</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o282">
+<a:ObjectID>9EFD189C-7CEC-4662-91B8-991649D4C44A</a:ObjectID>
+<a:Name>libelle_etatprojet</a:Name>
+<a:Code>LIBELLE_ETATPROJET</a:Code>
+<a:CreationDate>1369815527</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815580</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o145">
+<a:ObjectID>674550CA-2D1E-4FEA-A89C-362DF6DC1EDB</a:ObjectID>
+<a:Name>urlproduction_projet</a:Name>
+<a:Code>URLPRODUCTION_PROJET</a:Code>
+<a:CreationDate>1369815733</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369815803</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o198">
+<a:ObjectID>C2DCA30A-247D-4F43-907F-88FAD3217EAB</a:ObjectID>
+<a:Name>ville_client</a:Name>
+<a:Code>VILLE_CLIENT</a:Code>
+<a:CreationDate>1369816860</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816876</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>VA255</a:DataType>
+<a:Length>255</a:Length>
+</o:DataItem>
+<o:DataItem Id="o223">
+<a:ObjectID>4F53DB1F-246C-4D3E-A5EA-E7D3B8758A36</a:ObjectID>
+<a:Name>actif_sujet</a:Name>
+<a:Code>ACTIF_SUJET</a:Code>
+<a:CreationDate>1369816926</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816938</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o214">
+<a:ObjectID>0FD348BC-F691-4B4D-9E0E-E6D7488507DD</a:ObjectID>
+<a:Name>actif_dialogue</a:Name>
+<a:Code>ACTIF_DIALOGUE</a:Code>
+<a:CreationDate>1369816939</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816951</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+</c:DataItems>
+<c:Associations>
+<o:Association Id="o102">
+<a:ObjectID>52BC8846-94DD-4D86-8E43-360AD7F8A99F</a:ObjectID>
+<a:Name>Languesite</a:Name>
+<a:Code>LANGUESITE</a:Code>
+<a:CreationDate>1367223494</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367242224</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Attributes>
+<o:AssociationAttribute Id="o305">
+<a:ObjectID>D4A09497-30CB-48EC-8467-AEA032E192A1</a:ObjectID>
+<a:CreationDate>1367223517</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367234925</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o283"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o306">
+<a:ObjectID>A776DBF9-30DA-4A7F-818F-0084DDF64A1D</a:ObjectID>
+<a:CreationDate>1367223517</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367234925</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o284"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o307">
+<a:ObjectID>213E3D85-2171-4E9A-8EF3-04C547F7429A</a:ObjectID>
+<a:CreationDate>1367223596</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223658</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o285"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o308">
+<a:ObjectID>D4937C94-7756-42A3-B0F3-E92A0337A81F</a:ObjectID>
+<a:CreationDate>1367223596</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223658</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o286"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o309">
+<a:ObjectID>36CFC072-F676-4439-BD80-5C2472A8061A</a:ObjectID>
+<a:CreationDate>1367223685</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223705</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o287"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o310">
+<a:ObjectID>DF7F0004-4E58-41A3-A314-AABC4D0146DD</a:ObjectID>
+<a:CreationDate>1367242203</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367242224</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o299"/>
+</c:DataItem>
+</o:AssociationAttribute>
+</c:Attributes>
+</o:Association>
+<o:Association Id="o105">
+<a:ObjectID>7F97FF57-70FD-403F-B246-8C1967CC9BC3</a:ObjectID>
+<a:Name>pagelangue</a:Name>
+<a:Code>PAGELANGUE</a:Code>
+<a:CreationDate>1367228717</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367228793</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Attributes>
+<o:AssociationAttribute Id="o311">
+<a:ObjectID>285BEF7F-25AC-45B7-8D39-F0C7960D5247</a:ObjectID>
+<a:CreationDate>1367228731</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367228793</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o290"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o312">
+<a:ObjectID>BDA690CC-417A-4D7F-ADFC-ACFA3716A7D5</a:ObjectID>
+<a:CreationDate>1367228731</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367228793</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o291"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o313">
+<a:ObjectID>32816267-D46D-4055-9F4F-28B64085F1B2</a:ObjectID>
+<a:CreationDate>1367228731</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367228793</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o292"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o314">
+<a:ObjectID>BFCCBD1C-9CEE-4EE1-854C-7D5396714F6E</a:ObjectID>
+<a:CreationDate>1367228731</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367228793</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o293"/>
+</c:DataItem>
+</o:AssociationAttribute>
+</c:Attributes>
+</o:Association>
+<o:Association Id="o107">
+<a:ObjectID>E34CB8FA-6BDD-45E4-ACCC-910D2357F931</a:ObjectID>
+<a:Name>Photolangue</a:Name>
+<a:Code>PHOTOLANGUE</a:Code>
+<a:CreationDate>1367229412</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229469</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Attributes>
+<o:AssociationAttribute Id="o315">
+<a:ObjectID>437DE171-D8C5-4929-AAC6-877C90D53696</a:ObjectID>
+<a:CreationDate>1367229413</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229469</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o294"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o316">
+<a:ObjectID>F19B5266-08C8-411F-ABF6-7D820B45486C</a:ObjectID>
+<a:CreationDate>1367229413</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229469</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o295"/>
+</c:DataItem>
+</o:AssociationAttribute>
+</c:Attributes>
+</o:Association>
+<o:Association Id="o108">
+<a:ObjectID>D278D982-00F3-4A57-8787-3E95D8F396B9</a:ObjectID>
+<a:Name>Gallerielangue</a:Name>
+<a:Code>GALLERIELANGUE</a:Code>
+<a:CreationDate>1367229595</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229646</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Attributes>
+<o:AssociationAttribute Id="o317">
+<a:ObjectID>BC059DC5-5898-4E7D-B1D2-161346E04830</a:ObjectID>
+<a:CreationDate>1367229598</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229646</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o296"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o318">
+<a:ObjectID>24D5205C-1D10-4E87-80D4-B537D453C973</a:ObjectID>
+<a:CreationDate>1367229598</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229646</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o297"/>
+</c:DataItem>
+</o:AssociationAttribute>
+</c:Attributes>
+</o:Association>
+<o:Association Id="o110">
+<a:ObjectID>EA2B6675-39E1-432C-B00C-B7E5C59C2C1C</a:ObjectID>
+<a:Name>Galleriepage</a:Name>
+<a:Code>GALLERIEPAGE</a:Code>
+<a:CreationDate>1367230361</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367230389</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Attributes>
+<o:AssociationAttribute Id="o319">
+<a:ObjectID>1A474EC3-0972-49C3-884E-B90F6B6B9760</a:ObjectID>
+<a:CreationDate>1367230369</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367230389</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o298"/>
+</c:DataItem>
+</o:AssociationAttribute>
+</c:Attributes>
+</o:Association>
+<o:Association Id="o116">
+<a:ObjectID>0474B8E6-EAA4-4CC7-BC25-D6BBAC5291DD</a:ObjectID>
+<a:Name>Actulangue</a:Name>
+<a:Code>ACTULANGUE</a:Code>
+<a:CreationDate>1367331871</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331918</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Attributes>
+<o:AssociationAttribute Id="o320">
+<a:ObjectID>65478A0F-AA0B-4828-BADB-2C82C72233BC</a:ObjectID>
+<a:CreationDate>1367331874</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331911</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o300"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o321">
+<a:ObjectID>53B6DE5D-C7EE-4742-ACE1-CE5ACD4E9C3B</a:ObjectID>
+<a:CreationDate>1367331874</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331911</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o301"/>
+</c:DataItem>
+</o:AssociationAttribute>
+</c:Attributes>
+</o:Association>
+<o:Association Id="o120">
+<a:ObjectID>8D1EBC5D-9322-44B7-BD53-EECB3220D8EA</a:ObjectID>
+<a:Name>Adminprojet</a:Name>
+<a:Code>ADMINPROJET</a:Code>
+<a:CreationDate>1367597972</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369816791</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:Attributes>
+<o:AssociationAttribute Id="o322">
+<a:ObjectID>B8C1E09C-E036-48E3-91E5-12F8285C9910</a:ObjectID>
+<a:CreationDate>1367597981</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367598015</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o303"/>
+</c:DataItem>
+</o:AssociationAttribute>
+<o:AssociationAttribute Id="o323">
+<a:ObjectID>397A28FC-DD42-4692-9825-E0B163F4FE4E</a:ObjectID>
+<a:CreationDate>1367597981</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367598015</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o304"/>
+</c:DataItem>
+</o:AssociationAttribute>
+</c:Attributes>
+</o:Association>
+</c:Associations>
+<c:AssociationsLinks>
+<o:AssociationLink Id="o8">
+<a:ObjectID>75AC67F7-F24A-47FB-BF44-E26564C57AF9</a:ObjectID>
+<a:CreationDate>1367223494</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223494</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o102"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o98"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o11">
+<a:ObjectID>49416D28-3432-4F98-879D-639218466FF1</a:ObjectID>
+<a:CreationDate>1367223494</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367223494</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o102"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o99"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o15">
+<a:ObjectID>FA84D64D-EB31-4707-B76C-02049BB2C2EC</a:ObjectID>
+<a:CreationDate>1367228717</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367228717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o105"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o100"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o17">
+<a:ObjectID>F899B307-BE3A-42B3-B461-036B14ADD349</a:ObjectID>
+<a:CreationDate>1367228717</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367228717</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o105"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o99"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o20">
+<a:ObjectID>6CBE4BCF-643D-449D-8A1E-A097A7962882</a:ObjectID>
+<a:CreationDate>1367229412</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229412</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o107"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o99"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o23">
+<a:ObjectID>CA525BA9-29A4-4F08-BCC9-FEEA8EDCDDAA</a:ObjectID>
+<a:CreationDate>1367229412</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229412</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o107"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o106"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o29">
+<a:ObjectID>AD55B912-3765-4D71-839F-70D69DD17BBA</a:ObjectID>
+<a:CreationDate>1367229595</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229595</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o108"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o101"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o31">
+<a:ObjectID>7FDC0BEB-9401-4312-BAC9-F45FD182E6DD</a:ObjectID>
+<a:CreationDate>1367229595</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367229595</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o108"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o99"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o36">
+<a:ObjectID>6FAEAF54-B416-435D-BAB4-8E2F625B1590</a:ObjectID>
+<a:CreationDate>1367230361</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367230361</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o110"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o101"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o38">
+<a:ObjectID>1C4F7ABE-7843-440C-B26D-9CCAF1158A22</a:ObjectID>
+<a:CreationDate>1367230361</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367230361</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o110"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o100"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o62">
+<a:ObjectID>CA1949E7-47CC-4827-B678-6D4D09B553C2</a:ObjectID>
+<a:CreationDate>1367331871</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331871</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o116"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o115"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o64">
+<a:ObjectID>730FAAAE-7BE7-4ABB-9DDA-4EC54E3B931F</a:ObjectID>
+<a:CreationDate>1367331871</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367331871</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o116"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o99"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o81">
+<a:ObjectID>9508FEAD-D420-41BC-95CB-12C9FE2BE263</a:ObjectID>
+<a:CreationDate>1367597972</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367597972</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o120"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o103"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o83">
+<a:ObjectID>04B52C52-C5DB-45CF-B885-01510DC8990F</a:ObjectID>
+<a:CreationDate>1367597972</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1367597972</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o120"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o98"/>
+</c:Object2>
+</o:AssociationLink>
+</c:AssociationsLinks>
+<c:TargetModels>
+<o:TargetModel Id="o324">
+<a:ObjectID>275D79C2-8E30-40D9-8748-6E921E056E66</a:ObjectID>
+<a:Name>cms</a:Name>
+<a:Code>CMS</a:Code>
+<a:CreationDate>1369817846</a:CreationDate>
+<a:Creator>Dell 260MT</a:Creator>
+<a:ModificationDate>1369817846</a:ModificationDate>
+<a:Modifier>Dell 260MT</a:Modifier>
+<a:TargetModelID>2A8C626B-1615-4D9E-B9D4-05A3228F770A</a:TargetModelID>
+<a:TargetModelClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o3"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+</c:TargetModels>
+</o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>
