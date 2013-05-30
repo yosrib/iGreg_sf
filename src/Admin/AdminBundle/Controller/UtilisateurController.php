@@ -4,11 +4,11 @@ namespace Admin\AdminBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class ProjetController extends Controller{
+class UtilisateurController extends Controller{
 
     public function indexAction(){
-        
-        return $this->render('AdminAdminBundle:Projet:index.html.twig');
+       
+        return $this->render('AdminAdminBundle:Utilisateur:index.html.twig');
     }
     
 }

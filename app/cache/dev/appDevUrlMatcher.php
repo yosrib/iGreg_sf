@@ -216,9 +216,24 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return array (  '_controller' => 'Admin\\AdminBundle\\Controller\\IndexController::indexAction',  '_route' => 'admin_admin_index',);
             }
 
-            // admin_admin_projet
-            if ($pathinfo === '/admin/projet') {
-                return array (  '_controller' => 'Admin\\AdminBundle\\Controller\\ProjetController::indexAction',  '_route' => 'admin_admin_projet',);
+            // admin_admin_projets
+            if ($pathinfo === '/admin/projets') {
+                return array (  '_controller' => 'Admin\\AdminBundle\\Controller\\ProjetController::indexAction',  '_route' => 'admin_admin_projets',);
+            }
+
+            // admin_admin_clients
+            if ($pathinfo === '/admin/clients') {
+                return array (  '_controller' => 'Admin\\AdminBundle\\Controller\\ClientController::indexAction',  '_route' => 'admin_admin_clients',);
+            }
+
+            // admin_admin_utilisateurs
+            if ($pathinfo === '/admin/utilisateurs') {
+                return array (  '_controller' => 'Admin\\AdminBundle\\Controller\\UtilisateurController::indexAction',  '_route' => 'admin_admin_utilisateurs',);
+            }
+
+            // admin_admin_langues
+            if ($pathinfo === '/admin/langues') {
+                return array (  '_controller' => 'Admin\\AdminBundle\\Controller\\LangueController::indexAction',  '_route' => 'admin_admin_langues',);
             }
 
         }

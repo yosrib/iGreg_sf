@@ -1,0 +1,101 @@
+{% extends "AdminAdminBundle::layout.html.twig" %}
+
+{% block title "Admin iGereg" %}
+
+{% block content %}
+<div class="row-fluid">
+    <div class="box ">
+        <div class="title">
+            <div class="btn-toolbar pull-right ">
+            <div class="btn-group"> <a class="btn">Ajouter +</a> <a class="btn change_color_outside"><i class="paint_bucket"></i></a> </div>
+        </div>
+        <h4> <span>Liste des clients <small>(20)</small></span> </h4>
+    </div>
+    <div class="content top">
+        <table id="datatable_example" class="responsive table table-striped table-bordered" style="width:100%;margin-bottom:0; ">
+            <thead>
+                <tr>
+                    <th class="jv no_sort">
+                        <label class="checkbox "><input type="checkbox"></label>
+                    </th>
+                    <th class="to_hide_phone jv no_sort">Image</th>
+                    <th class="no_sort">Nom & Prénom</th>
+                    <th class="to_hide_phone ue no_sort">E-mail</th>
+                    <th class="to_hide_phone ue no_sort"><i class="icon-comments big"></i></th>
+                    <th class="ms no_sort ">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for clients in allClient %}
+                    <tr>
+                        <td><label class="checkbox "><input type="checkbox"></label></td>
+                        <td class="to_hide_phone "><img class="thumbnail small" src="{{asset('bundles/admin/img/message_avatar2.png')}}"></td>
+                        <td class="">
+                            {{clients.prenomClient | capitalize}} {{clients.nomClient | upper }}
+                        </td>
+                        <td class="to_hide_phone"><div class="row-fluid"><small>
+                                    {{clients.emailClient}}
+                        </td>
+                        
+                        <td class="to_hide_phone ">12</td>
+                        <td class="ms"><div class="btn-group"> <a class="btn btn-small"  rel="tooltip" data-placement="left" data-original-title=" Edit "><i class="gicon-edit"></i></a> <a class="btn btn-small" rel="tooltip" data-placement="top" data-original-title="View"><i class="gicon-eye-open"></i></a> <a class="btn  btn-small" rel="tooltip" data-placement="bottom" data-original-title="Remove"><i class="gicon-remove "></i></a> </div></td>
+                    </tr>
+                {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <!-- End .content --> 
+    </div>
+        <!-- End box --> 
+      </div>
+      <!-- End .row-fluid --> 
+      
+{% endblock %}
+      
+{% block css %}
+<link href="{{ asset ('bundles/admin/js/plugins/chosen/chosen/chosen.css')}}" rel="stylesheet">
+{% endblock %}
+{% block javascripts %}
+<script language="javascript" type="text/javascript" src="{{ asset ('bundles/admin/js/plugins/chosen/chosen/chosen.jquery.min.js')}}"></script>
+<script type="text/javascript">
+    $("#sidebar_menu_clients").addClass("active");
+
+
+
+  /**** Specific JS for this page ****/
+  // Datatables
+
+    
+      var dontSort = [];
+                $('#datatable_example thead th').each( function () {
+                    if ( $(this).hasClass( 'no_sort' )) {
+                        dontSort.push( { 'bSortable': false } );
+                    } else {
+                        dontSort.push( null );
+                    }
+      } );
+      $('#datatable_example').dataTable( {
+        "sDom": "<'row-fluid table_top_bar'<'span12'<'to_hide_phone' f>>>t<'row-fluid control-group full top' <'span4 to_hide_tablet'l><'span8 pagination'p>>",
+         "aaSorting": [[ 1, "asc" ]],
+        "bPaginate": true,
+
+        "sPaginationType": "full_numbers",
+        "bJQueryUI": false,
+        "aoColumns": dontSort,
+        
+      } );
+      $.extend( $.fn.dataTableExt.oStdClasses, {
+        "s`": "dataTables_wrapper form-inline"
+      } );
+
+       $(".chzn-select, .dataTables_length select").chosen({
+                   disable_search_threshold: 10
+
+        });
+
+  
+
+
+</script>
+
+{% endblock %}

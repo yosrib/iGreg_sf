@@ -1,7 +1,24 @@
+# Routes Dashboard
 admin_admin_index:
     pattern:  /
     defaults: { _controller: AdminAdminBundle:Index:index }
 
-admin_admin_projet:
-    pattern:  /projet
+# Routes Projets
+admin_admin_projets:
+    pattern:  /projets
     defaults: { _controller: AdminAdminBundle:Projet:index }
+
+#Routes Clients
+admin_admin_clients:
+    pattern:  /clients
+    defaults: { _controller: AdminAdminBundle:Client:index }
+    
+#Routes Utilisateurs
+admin_admin_utilisateurs:
+    pattern:  /utilisateurs
+    defaults: { _controller: AdminAdminBundle:Utilisateur:index }
+    
+#Routes Langue
+admin_admin_langues:
+    pattern:  /langues
+    defaults: { _controller: AdminAdminBundle:Langue:index }

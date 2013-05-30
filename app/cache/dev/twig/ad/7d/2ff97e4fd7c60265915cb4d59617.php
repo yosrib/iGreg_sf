@@ -37,20 +37,8 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
     public function block_content($context, array $blocks = array())
     {
         // line 9
-        $context['_parent'] = (array) $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["allClient"]) ? $context["allClient"] : $this->getContext($context, "allClient")));
-        foreach ($context['_seq'] as $context["_key"] => $context["pjt"]) {
-            // line 10
-            echo "    ";
-            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["pjt"]) ? $context["pjt"] : $this->getContext($context, "pjt")), "nomClient"), "html", null, true);
-            echo "<br />
-";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['pjt'], $context['_parent'], $context['loop']);
-        $context = array_merge($_parent, array_intersect_key($context, $_parent));
-        // line 12
-        echo "<div class=\"row-fluid\">
+        echo "
+<div class=\"row-fluid\">
         <div class=\"box \">
           <div class=\"title\">
           \t<div class=\"btn-toolbar pull-right \">
@@ -82,7 +70,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 43
+        // line 41
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar4.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Full price for gum?!</td>
@@ -102,7 +90,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 60
+        // line 58
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar1.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Surrender your mysteries to Zoidberg!</td>
@@ -122,7 +110,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 77
+        // line 75
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">The point is, by my standards, I won fair and square.</td>
@@ -142,7 +130,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 94
+        // line 92
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\"> File not found?!</td>
@@ -162,7 +150,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 111
+        // line 109
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">I'm Santa Claus!</td>
@@ -182,7 +170,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 128
+        // line 126
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">And I'd do it again! And perhaps a third time!!</td>
@@ -202,7 +190,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 145
+        // line 143
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Perfectly symmetrical violence never solved anything.</td>
@@ -222,7 +210,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 162
+        // line 160
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Full price for gum?!</td>
@@ -242,7 +230,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 179
+        // line 177
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Surrender your mysteries to Zoidberg!</td>
@@ -262,7 +250,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 196
+        // line 194
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">The point is, by my standards, I won fair and square.</td>
@@ -282,7 +270,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 213
+        // line 211
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\"> File not found?!</td>
@@ -302,7 +290,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 230
+        // line 228
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">I'm Santa Claus!</td>
@@ -322,7 +310,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 247
+        // line 245
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">And I'd do it again! And perhaps a third time!!</td>
@@ -342,7 +330,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 264
+        // line 262
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Perfectly symmetrical violence never solved anything.</td>
@@ -362,7 +350,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 281
+        // line 279
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Full price for gum?!</td>
@@ -382,7 +370,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 298
+        // line 296
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Surrender your mysteries to Zoidberg!</td>
@@ -402,7 +390,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 315
+        // line 313
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">The point is, by my standards, I won fair and square.</td>
@@ -422,7 +410,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 332
+        // line 330
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\"> File not found?!</td>
@@ -442,7 +430,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 349
+        // line 347
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">I'm Santa Claus!</td>
@@ -462,7 +450,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 366
+        // line 364
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">And I'd do it again! And perhaps a third time!!</td>
@@ -482,7 +470,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 383
+        // line 381
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Perfectly symmetrical violence never solved anything.</td>
@@ -502,7 +490,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 400
+        // line 398
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Full price for gum?!</td>
@@ -522,7 +510,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 417
+        // line 415
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Surrender your mysteries to Zoidberg!</td>
@@ -542,7 +530,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 434
+        // line 432
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">The point is, by my standards, I won fair and square.</td>
@@ -562,7 +550,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 451
+        // line 449
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\"> File not found?!</td>
@@ -582,7 +570,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 468
+        // line 466
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">I'm Santa Claus!</td>
@@ -602,7 +590,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 485
+        // line 483
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">And I'd do it again! And perhaps a third time!!</td>
@@ -622,7 +610,7 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
                       <input type=\"checkbox\">
                     </label></td>
                   <td><img class=\"thumbnail small\" src=\"";
-        // line 502
+        // line 500
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/message_avatar2.png"), "html", null, true);
         echo "\"></td>
                   <td class=\"to_hide_phone\">Perfectly symmetrical violence never solved anything.</td>
@@ -649,20 +637,20 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
 ";
     }
 
-    // line 526
+    // line 524
     public function block_css($context, array $blocks = array())
     {
-        // line 527
+        // line 525
         echo "<link href=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/js/plugins/chosen/chosen/chosen.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
 ";
     }
 
-    // line 529
+    // line 527
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 530
+        // line 528
         echo "<script language=\"javascript\" type=\"text/javascript\" src=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/js/plugins/chosen/chosen/chosen.jquery.min.js"), "html", null, true);
         echo "\"></script>
@@ -725,6 +713,6 @@ class __TwigTemplate_ad7d2ff97e4fd7c60265915cb4d59617 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  666 => 530,  663 => 529,  656 => 527,  653 => 526,  626 => 502,  606 => 485,  586 => 468,  566 => 451,  546 => 434,  526 => 417,  506 => 400,  486 => 383,  466 => 366,  446 => 349,  426 => 332,  406 => 315,  386 => 298,  366 => 281,  346 => 264,  326 => 247,  306 => 230,  286 => 213,  266 => 196,  246 => 179,  226 => 162,  206 => 145,  186 => 128,  166 => 111,  146 => 94,  126 => 77,  106 => 60,  86 => 43,  53 => 12,  44 => 10,  40 => 9,  37 => 8,  31 => 4,);
+        return array (  654 => 528,  651 => 527,  644 => 525,  641 => 524,  614 => 500,  594 => 483,  574 => 466,  554 => 449,  534 => 432,  514 => 415,  494 => 398,  474 => 381,  454 => 364,  434 => 347,  414 => 330,  394 => 313,  374 => 296,  354 => 279,  334 => 262,  314 => 245,  294 => 228,  274 => 211,  254 => 194,  234 => 177,  214 => 160,  194 => 143,  174 => 126,  154 => 109,  134 => 92,  114 => 75,  94 => 58,  74 => 41,  40 => 9,  37 => 8,  31 => 4,);
     }
 }

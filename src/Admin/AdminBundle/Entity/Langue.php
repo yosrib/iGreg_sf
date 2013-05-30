@@ -3,6 +3,7 @@
 namespace Admin\AdminBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Query\ResultSetMapping;
 
 /**
  * Langue
@@ -13,6 +14,11 @@ class Langue
      * @var string
      */
     private $isoLangue;
+    
+    /**
+     * @var string
+     */
+    private $libelleLangue;
 
     /**
      * @var \Doctrine\Common\Collections\Collection
@@ -42,8 +48,7 @@ class Langue
     /**
      * Constructor
      */
-    public function __construct()
-    {
+    public function __construct(){
         $this->idActualite = new \Doctrine\Common\Collections\ArrayCollection();
         $this->idGallerie = new \Doctrine\Common\Collections\ArrayCollection();
         $this->idProjet = new \Doctrine\Common\Collections\ArrayCollection();
@@ -51,14 +56,48 @@ class Langue
         $this->idPhoto = new \Doctrine\Common\Collections\ArrayCollection();
     }
     
+    public function getAllLangue(){
+        $rsm = new ResultSetMapping();
+        $rsm->addEntityResult('Admin\AdminBundle\Entity\Langue', 'p');
+        $rsm->addFieldResult('p', 'id', 'id');
+        $rsm->addFieldResult('p', 'title', 'title');
+
+        $sql = 'SELECT * FROM langue l ';
+
+        $query = $this->_em->createNativeQuery($sql, $rsm);
+        //$query->setParameter(1, $idProject);
+
+        $projects = $query->getResult();
+        return $projects;
+    }
+    
     /**
      * Get isoLangue
      *
      * @return string 
      */
-    public function getIsoLangue()
-    {
+    public function getIsoLangue(){
         return $this->isoLangue;
+    }
+    
+    /**
+     * Get libelleLangue
+     *
+     * @return string 
+     */
+    public function getLibelleLangue(){
+        return $this->libelleLangue;
+    }
+    
+    /**
+     * Set libelleLangue
+     *
+     * @return string 
+     */
+    public function setLibelleLangue($libelle){
+        $this->libelleLangue    =   $libelle;
+        
+        return $this;
     }
 
     /**
@@ -67,10 +106,8 @@ class Langue
      * @param \Admin\AdminBundle\Entity\Actualite $idActualite
      * @return Langue
      */
-    public function addIdActualite(\Admin\AdminBundle\Entity\Actualite $idActualite)
-    {
+    public function addIdActualite(\Admin\AdminBundle\Entity\Actualite $idActualite){
         $this->idActualite[] = $idActualite;
-    
         return $this;
     }
 

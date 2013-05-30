@@ -11,6 +11,12 @@ Admin\AdminBundle\Entity\Langue:
             column: iso_langue
             generator:
                 strategy: IDENTITY
+    libelleLangue:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: libelle_langue
     manyToMany:
         idActualite:
             targetEntity: Actualite

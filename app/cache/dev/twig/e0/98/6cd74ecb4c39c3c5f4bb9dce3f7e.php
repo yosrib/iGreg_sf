@@ -77,7 +77,7 @@ class __TwigTemplate_e0986cd74ecb4c39c3c5f4bb9dce3f7e extends Twig_Template
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/ajax-loader.gif"), "html", null, true);
         echo "\" /></div>
 <div id=\"responsive_part\">
-  <div class=\"logo\"> <a href=\"\"><span>Start</span><span class=\"icon\"></span></a> </div>
+  <div class=\"logo\"> <a href=\"\"><span>iGreg</span><span class=\"icon\"></span></a> </div>
   <ul class=\"nav responsive\">
     <li>
       <button class=\"btn responsive_menu icon_item\" data-toggle=\"collapse\" data-target=\".overview\"> <i class=\"icon-reorder\"></i> </button>
@@ -129,7 +129,7 @@ class __TwigTemplate_e0986cd74ecb4c39c3c5f4bb9dce3f7e extends Twig_Template
 \t\t\t        <ul id=\"collapse1\" class=\"accordion-body collapse\">
                                     <li class=\"projets\"><a href=\"";
         // line 69
-        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("admin_admin_projet"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("admin_admin_projets"), "html", null, true);
         echo "\">Tous les projets</a></li>
 \t\t            \t<li class=\"projetenattente\"><a href=\"\">Projets en attente</a></li>
 \t\t\t\t\t\t<li class=\"designencours\"><a href=\"\">Design en cours</a></li>
@@ -141,7 +141,10 @@ class __TwigTemplate_e0986cd74ecb4c39c3c5f4bb9dce3f7e extends Twig_Template
 \t\t          \t</ul>
 \t\t        </li>
 \t\t        <li id=\"sidebar_menu_clients\" class=\"accordion-group color_12\">
-\t\t\t        <a class=\"widgets\" data-parent=\"#sidebar_menu\" href=\"\">
+\t\t\t        <a class=\"widgets\" data-parent=\"#sidebar_menu\" href=\"";
+        // line 80
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("admin_admin_clients"), "html", null, true);
+        echo "\">
 \t\t\t\t        <img src=\"";
         // line 81
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/menu_icons/users.png"), "html", null, true);
@@ -158,7 +161,10 @@ class __TwigTemplate_e0986cd74ecb4c39c3c5f4bb9dce3f7e extends Twig_Template
 \t\t\t\t        <span>Utilisateurs</span>
 \t\t\t        </a>
 \t\t\t        <ul id=\"collapse2\" class=\"accordion-body collapse\">
-\t\t\t        \t<li class=\"utilisateurs\"><a href=\"\">Tous les utilisateurs</a></li>
+\t\t\t        \t<li class=\"utilisateurs\"><a href=\"";
+        // line 91
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("admin_admin_utilisateurs"), "html", null, true);
+        echo "\">Tous les utilisateurs</a></li>
 \t\t            \t<li class=\"chefdeprojet\"><a href=\"\">Chefs de projets</a></li>
 \t\t\t\t\t\t<li class=\"designeur\"><a href=\"\">Designeurs</a></li>
 \t\t            \t<li class=\"developpeur\"><a href=\"\">Développeurs</a></li>
@@ -166,7 +172,10 @@ class __TwigTemplate_e0986cd74ecb4c39c3c5f4bb9dce3f7e extends Twig_Template
 \t\t          \t</ul>
 \t\t        </li>
 \t\t        <li id=\"sidebar_menu_langues\" class=\"accordion-group color_18\">
-\t\t\t        <a class=\"widgets\" data-parent=\"#sidebar_menu\" href=\"\">
+\t\t\t        <a class=\"widgets\" data-parent=\"#sidebar_menu\" href=\"";
+        // line 99
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("admin_admin_langues"), "html", null, true);
+        echo "\">
 \t\t\t\t        <img src=\"";
         // line 100
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/admin/img/menu_icons/forms.png"), "html", null, true);
@@ -230,7 +239,7 @@ class __TwigTemplate_e0986cd74ecb4c39c3c5f4bb9dce3f7e extends Twig_Template
     \t<!-- End #container --> 
 \t</div>
 \t<div id=\"footer\">
-\t\t<p> &copy; Start - 2013 </p>
+\t\t<p> &copy; iGreg - 2013 </p>
 \t\t<span class=\"company_logo\"><a href=\"http://www.pixelgrade.com\"></a></span>
 \t</div>
 </div>
@@ -685,6 +694,6 @@ function TaskListViewModel() {
 
     public function getDebugInfo()
     {
-        return array (  672 => 474,  667 => 149,  662 => 20,  657 => 5,  650 => 475,  648 => 474,  415 => 244,  409 => 241,  403 => 238,  397 => 235,  393 => 234,  387 => 231,  383 => 230,  379 => 229,  375 => 228,  371 => 227,  367 => 226,  363 => 225,  359 => 224,  355 => 223,  351 => 222,  347 => 221,  343 => 220,  339 => 219,  335 => 218,  331 => 217,  327 => 216,  323 => 215,  319 => 214,  315 => 213,  311 => 212,  307 => 211,  303 => 210,  299 => 209,  294 => 207,  287 => 203,  281 => 200,  229 => 150,  227 => 149,  210 => 135,  172 => 100,  156 => 87,  147 => 81,  132 => 69,  125 => 65,  116 => 59,  112 => 58,  77 => 26,  70 => 21,  68 => 20,  63 => 18,  57 => 15,  53 => 14,  49 => 13,  45 => 12,  41 => 11,  36 => 9,  29 => 5,  23 => 1,);
+        return array (  681 => 474,  676 => 149,  671 => 20,  666 => 5,  659 => 475,  657 => 474,  424 => 244,  418 => 241,  412 => 238,  406 => 235,  402 => 234,  396 => 231,  392 => 230,  388 => 229,  384 => 228,  380 => 227,  376 => 226,  372 => 225,  368 => 224,  364 => 223,  360 => 222,  356 => 221,  352 => 220,  348 => 219,  344 => 218,  340 => 217,  336 => 216,  332 => 215,  328 => 214,  324 => 213,  320 => 212,  316 => 211,  312 => 210,  308 => 209,  303 => 207,  296 => 203,  290 => 200,  238 => 150,  236 => 149,  219 => 135,  181 => 100,  177 => 99,  166 => 91,  159 => 87,  150 => 81,  146 => 80,  132 => 69,  125 => 65,  116 => 59,  112 => 58,  77 => 26,  70 => 21,  68 => 20,  63 => 18,  57 => 15,  53 => 14,  49 => 13,  45 => 12,  41 => 11,  36 => 9,  29 => 5,  23 => 1,);
     }
 }

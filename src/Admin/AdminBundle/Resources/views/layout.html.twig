@@ -25,7 +25,7 @@
 <body>
     <div id="loading"><img src="{{ asset ('bundles/admin/img/ajax-loader.gif')}}" /></div>
 <div id="responsive_part">
-  <div class="logo"> <a href=""><span>Start</span><span class="icon"></span></a> </div>
+  <div class="logo"> <a href=""><span>iGreg</span><span class="icon"></span></a> </div>
   <ul class="nav responsive">
     <li>
       <button class="btn responsive_menu icon_item" data-toggle="collapse" data-target=".overview"> <i class="icon-reorder"></i> </button>
@@ -66,7 +66,7 @@
 				        <span>Projets</span>
 			        </a>
 			        <ul id="collapse1" class="accordion-body collapse">
-                                    <li class="projets"><a href="{{path('admin_admin_projet')}}">Tous les projets</a></li>
+                                    <li class="projets"><a href="{{path('admin_admin_projets')}}">Tous les projets</a></li>
 		            	<li class="projetenattente"><a href="">Projets en attente</a></li>
 						<li class="designencours"><a href="">Design en cours</a></li>
 		            	<li class="designtermine"><a href="">Design terminé</a></li>
@@ -77,7 +77,7 @@
 		          	</ul>
 		        </li>
 		        <li id="sidebar_menu_clients" class="accordion-group color_12">
-			        <a class="widgets" data-parent="#sidebar_menu" href="">
+			        <a class="widgets" data-parent="#sidebar_menu" href="{{path('admin_admin_clients')}}">
 				        <img src="{{ asset ('bundles/admin/img/menu_icons/users.png')}}">
 				        <span>Clients</span>
 			        </a>
@@ -88,7 +88,7 @@
 				        <span>Utilisateurs</span>
 			        </a>
 			        <ul id="collapse2" class="accordion-body collapse">
-			        	<li class="utilisateurs"><a href="">Tous les utilisateurs</a></li>
+			        	<li class="utilisateurs"><a href="{{path('admin_admin_utilisateurs')}}">Tous les utilisateurs</a></li>
 		            	<li class="chefdeprojet"><a href="">Chefs de projets</a></li>
 						<li class="designeur"><a href="">Designeurs</a></li>
 		            	<li class="developpeur"><a href="">Développeurs</a></li>
@@ -96,7 +96,7 @@
 		          	</ul>
 		        </li>
 		        <li id="sidebar_menu_langues" class="accordion-group color_18">
-			        <a class="widgets" data-parent="#sidebar_menu" href="">
+			        <a class="widgets" data-parent="#sidebar_menu" href="{{path('admin_admin_langues')}}">
 				        <img src="{{ asset ('bundles/admin/img/menu_icons/forms.png')}}" />
 				        <span>Langues</span>
 			        </a>
@@ -151,7 +151,7 @@
     	<!-- End #container --> 
 	</div>
 	<div id="footer">
-		<p> &copy; Start - 2013 </p>
+		<p> &copy; iGreg - 2013 </p>
 		<span class="company_logo"><a href="http://www.pixelgrade.com"></a></span>
 	</div>
 </div>
