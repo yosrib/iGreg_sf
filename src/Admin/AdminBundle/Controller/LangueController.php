@@ -3,15 +3,18 @@
 namespace Admin\AdminBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Admin\AdminBundle\Entity\Langue;
+
 
 class LangueController extends Controller{
 
     public function indexAction(){
-        $langue =   new Langue();
-        //$repository = $this->getDoctrine()->getRepository('AdminAdminBundle:Langue');
-        //$allClient = $repository->find("fr");print_r($allClient);exit;
-        return $this->render('AdminAdminBundle:Projet:index.html.twig');
+        $em = $this->getDoctrine()->getEntityManager();
+        $connection = $em->getConnection();
+        $statement = $connection->prepare("select * from langue ");
+        $statement->execute();
+        $allLangue = $statement->fetchAll();
+
+        return $this->render('AdminAdminBundle:Langue:index.html.twig', array('allLangue'=>$allLangue));
     }
     
 }

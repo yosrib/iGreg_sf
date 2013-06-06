@@ -3,8 +3,6 @@
 namespace Admin\AdminBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\ORM\Query\ResultSetMapping;
-
 /**
  * Langue
  */
@@ -57,18 +55,7 @@ class Langue
     }
     
     public function getAllLangue(){
-        $rsm = new ResultSetMapping();
-        $rsm->addEntityResult('Admin\AdminBundle\Entity\Langue', 'p');
-        $rsm->addFieldResult('p', 'id', 'id');
-        $rsm->addFieldResult('p', 'title', 'title');
-
-        $sql = 'SELECT * FROM langue l ';
-
-        $query = $this->_em->createNativeQuery($sql, $rsm);
-        //$query->setParameter(1, $idProject);
-
-        $projects = $query->getResult();
-        return $projects;
+        
     }
     
     /**
