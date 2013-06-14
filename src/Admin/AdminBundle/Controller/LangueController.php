@@ -4,7 +4,6 @@ namespace Admin\AdminBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-
 class LangueController extends Controller{
 
     public function indexAction(){
